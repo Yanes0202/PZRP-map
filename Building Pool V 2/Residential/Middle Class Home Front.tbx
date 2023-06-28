@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<building version="2" width="14" height="20" ExteriorWall="15" ExteriorWallTrim="0" Door="6" DoorFrame="5" Window="63" Curtains="2" Shutters="61" Stairs="62" RoofCap="49" RoofSlope="54" RoofTop="58" GrimeWall="31">
+<building version="3" width="14" height="20" ExteriorWall="15" ExteriorWallTrim="0" Door="6" DoorFrame="5" Window="63" Curtains="2" Shutters="61" Stairs="62" RoofCap="49" RoofSlope="54" RoofTop="58" GrimeWall="31">
+ <properties>
+  <property name="Legend" value="Residential"/>
+ </properties>
  <tile_entry category="curtains">
   <tile enum="West" tile="fixtures_windows_curtains_01_004"/>
   <tile enum="East" tile="fixtures_windows_curtains_01_005"/>
@@ -212,6 +215,14 @@
   <tile enum="NorthWindow" tile="overlay_grime_wall_01_009"/>
   <tile enum="WestDoor" tile="overlay_grime_wall_01_010"/>
   <tile enum="NorthDoor" tile="overlay_grime_wall_01_011"/>
+  <tile enum="WestTrim" tile=""/>
+  <tile enum="NorthTrim" tile=""/>
+  <tile enum="NorthWestTrim" tile=""/>
+  <tile enum="SouthEastTrim" tile=""/>
+  <tile enum="WestDoubleLeft" tile=""/>
+  <tile enum="WestDoubleRight" tile=""/>
+  <tile enum="NorthDoubleLeft" tile=""/>
+  <tile enum="NorthDoubleRight" tile=""/>
  </tile_entry>
  <tile_entry category="grime_wall">
   <tile enum="West" tile="overlay_grime_wall_01_016"/>
@@ -222,6 +233,14 @@
   <tile enum="NorthWindow" tile="overlay_grime_wall_01_025"/>
   <tile enum="WestDoor" tile="overlay_grime_wall_01_026"/>
   <tile enum="NorthDoor" tile="overlay_grime_wall_01_027"/>
+  <tile enum="WestTrim" tile=""/>
+  <tile enum="NorthTrim" tile=""/>
+  <tile enum="NorthWestTrim" tile=""/>
+  <tile enum="SouthEastTrim" tile=""/>
+  <tile enum="WestDoubleLeft" tile=""/>
+  <tile enum="WestDoubleRight" tile=""/>
+  <tile enum="NorthDoubleLeft" tile=""/>
+  <tile enum="NorthDoubleRight" tile=""/>
  </tile_entry>
  <tile_entry category="interior_walls">
   <tile enum="West" tile="fixtures_bathroom_02_000"/>

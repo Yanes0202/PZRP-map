@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<building version="3" width="40" height="53" ExteriorWall="17" ExteriorWallTrim="0" Door="4" DoorFrame="1" Window="56" Curtains="0" Shutters="54" Stairs="55" RoofCap="50" RoofSlope="51" RoofTop="52" GrimeWall="27">
+<building version="3" width="40" height="53" ExteriorWall="16" ExteriorWallTrim="0" Door="4" DoorFrame="1" Window="53" Curtains="0" Shutters="51" Stairs="52" RoofCap="47" RoofSlope="48" RoofTop="49" GrimeWall="26">
  <tile_entry category="door_frames">
   <tile enum="West" tile="fixtures_doors_frames_01_000"/>
   <tile enum="North" tile="fixtures_doors_frames_01_001"/>
@@ -69,16 +69,6 @@
   <tile enum="North" tile="fixtures_doors_02_045"/>
   <tile enum="WestOpen" tile="fixtures_doors_02_046"/>
   <tile enum="NorthOpen" tile="fixtures_doors_02_047"/>
- </tile_entry>
- <tile_entry category="exterior_wall_trim">
-  <tile enum="West" tile="walls_interior_detailing_01_096"/>
-  <tile enum="North" tile="walls_interior_detailing_01_097"/>
-  <tile enum="NorthWest" tile="walls_interior_detailing_01_098"/>
-  <tile enum="SouthEast" tile="walls_interior_detailing_01_099"/>
-  <tile enum="WestWindow" tile="walls_interior_detailing_01_104"/>
-  <tile enum="NorthWindow" tile="walls_interior_detailing_01_105"/>
-  <tile enum="WestDoor" tile="walls_interior_detailing_01_106"/>
-  <tile enum="NorthDoor" tile="walls_interior_detailing_01_107"/>
  </tile_entry>
  <tile_entry category="exterior_walls">
   <tile enum="West" tile="industry_01_000"/>
@@ -183,16 +173,6 @@
   <tile enum="NorthDoor" tile="industry_bunker_01_035"/>
  </tile_entry>
  <tile_entry category="interior_wall_trim">
-  <tile enum="West" tile="walls_commercial_02_040"/>
-  <tile enum="North" tile="walls_commercial_02_041"/>
-  <tile enum="NorthWest" tile="walls_commercial_02_042"/>
-  <tile enum="SouthEast" tile="walls_commercial_02_043"/>
-  <tile enum="WestWindow" tile=""/>
-  <tile enum="NorthWindow" tile=""/>
-  <tile enum="WestDoor" tile=""/>
-  <tile enum="NorthDoor" tile=""/>
- </tile_entry>
- <tile_entry category="interior_wall_trim">
   <tile enum="West" tile="walls_interior_detailing_01_004"/>
   <tile enum="North" tile="walls_interior_detailing_01_005"/>
   <tile enum="NorthWest" tile="walls_interior_detailing_01_006"/>
@@ -241,16 +221,6 @@
   <tile enum="NorthWindow" tile="walls_interior_detailing_01_093"/>
   <tile enum="WestDoor" tile="walls_interior_detailing_01_094"/>
   <tile enum="NorthDoor" tile="walls_interior_detailing_01_095"/>
- </tile_entry>
- <tile_entry category="interior_walls">
-  <tile enum="West" tile="constructedobjects_01_048"/>
-  <tile enum="North" tile="constructedobjects_01_049"/>
-  <tile enum="NorthWest" tile="constructedobjects_01_050"/>
-  <tile enum="SouthEast" tile="constructedobjects_01_051"/>
-  <tile enum="WestWindow" tile="constructedobjects_01_056"/>
-  <tile enum="NorthWindow" tile="constructedobjects_01_057"/>
-  <tile enum="WestDoor" tile="constructedobjects_01_058"/>
-  <tile enum="NorthDoor" tile="constructedobjects_01_059"/>
  </tile_entry>
  <tile_entry category="interior_walls">
   <tile enum="West" tile="industry_01_000"/>
@@ -2595,35 +2565,35 @@
   </entry>
  </furniture>
  <user_tiles/>
- <used_tiles>14 46 20 26 27 15 17 16 37 9 36 28 19 40 24 43 31 8 50 51 53 3 33 32 10 25 41 45 18 39 34 12 11 38 5 6 44 2 7 48 30 21 49 4 1 42 47 22 23 52 35 13 29</used_tiles>
+ <used_tiles>13 43 19 25 26 14 16 15 34 9 33 27 18 37 23 40 29 8 47 48 50 3 31 30 10 24 38 42 17 36 32 12 11 35 5 6 41 2 7 45 28 20 46 4 1 39 44 21 22 49</used_tiles>
  <used_furniture>163 29 86 0 156 155 150 1 2 3 4 5 6 7 8 9 13 10 12 11 14 15 16 17 18 40 55 19 21 20 22 23 24 25 26 78 27 126 28 47 30 31 32 33 34 35 36 37 38 164 39 41 42 97 43 44 45 46 52 48 49 50 51 53 54 56 57 67 165 58 59 60 61 62 63 64 65 66 68 69 70 71 72 73 79 74 76 75 77 80 81 82 83 84 85 87 88 89 90 91 65 92 93 94 95 96 98 99 100 105 104 101 103 102 166 147 167 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 168 124 169 125 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 170 143 144 145 146 148 149 151 152 153 154 157 158 159 160 161 162</used_furniture>
- <room Name="Garage" InternalName="garagestorage" Color="200 200 200" InteriorWall="46" InteriorWallTrim="32" Floor="20" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Garage Storage" InternalName="mechanic" Color="0 0 255" InteriorWall="46" InteriorWallTrim="32" Floor="20" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Corridor / Cafeteria" InternalName="storage" Color="128 128 128" InteriorWall="40" InteriorWallTrim="0" Floor="20" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Men's Restroom" InternalName="bathroom" Color="255 0 0" InteriorWall="43" InteriorWallTrim="31" Floor="24" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Womens Restroom" InternalName="bathroom" Color="0 255 0" InteriorWall="43" InteriorWallTrim="31" Floor="24" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Cafeteria Kitchen" InternalName="resturantkitchen" Color="0 255 255" InteriorWall="43" InteriorWallTrim="33" Floor="24" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Generator Room" InternalName="storage" Color="255 255 0" InteriorWall="46" InteriorWallTrim="32" Floor="20" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Water Room" InternalName="policestorage" Color="255 200 0" InteriorWall="46" InteriorWallTrim="32" Floor="20" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Maintence Storage" InternalName="toolstore" Color="255 150 0" InteriorWall="46" InteriorWallTrim="32" Floor="20" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Water" InternalName="room10" Color="255 110 0" InteriorWall="46" InteriorWallTrim="32" Floor="18" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Maintence Sector" InternalName="bedroom" Color="255 255 255" InteriorWall="40" InteriorWallTrim="0" Floor="20" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Cafeteria Storage" InternalName="resturantkitchen" Color="255 255 255" InteriorWall="40" InteriorWallTrim="33" Floor="24" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Armory Office" InternalName="poststorage" Color="255 255 255" InteriorWall="40" InteriorWallTrim="0" Floor="20" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Armory" InternalName="gunstorestorage" Color="255 255 255" InteriorWall="40" InteriorWallTrim="0" Floor="20" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Living Area Sector" InternalName="storage" Color="255 255 255" InteriorWall="40" InteriorWallTrim="0" Floor="20" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Showers" InternalName="bathroom" Color="255 255 255" InteriorWall="40" InteriorWallTrim="32" Floor="20" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Barracks" InternalName="storage" Color="255 255 255" InteriorWall="40" InteriorWallTrim="32" Floor="20" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Lockeroom" InternalName="bedroom" Color="255 255 255" InteriorWall="40" InteriorWallTrim="32" Floor="20" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Medbay" InternalName="medclinic" Color="255 255 255" InteriorWall="40" InteriorWallTrim="32" Floor="20" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Medbay Storage" InternalName="medicalstorage" Color="255 255 255" InteriorWall="40" InteriorWallTrim="32" Floor="20" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Laundry" InternalName="laundry" Color="255 255 255" InteriorWall="40" InteriorWallTrim="32" Floor="20" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Library" InternalName="library" Color="255 255 255" InteriorWall="40" InteriorWallTrim="32" Floor="20" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Brief Room" InternalName="poststorage" Color="255 255 255" InteriorWall="40" InteriorWallTrim="0" Floor="20" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Quarters Private" InternalName="livingroom" Color="255 255 255" InteriorWall="49" InteriorWallTrim="30" Floor="21" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Private Bathroom" InternalName="bathroom" Color="255 255 255" InteriorWall="47" InteriorWallTrim="0" Floor="23" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Private Bedroom" InternalName="bedroom" Color="255 255 255" InteriorWall="49" InteriorWallTrim="30" Floor="21" GrimeFloor="26" GrimeWall="27"/>
- <room Name="Filler" InternalName="room27" Color="255 255 255" InteriorWall="45" InteriorWallTrim="0" Floor="20" GrimeFloor="26" GrimeWall="27"/>
+ <room Name="Garage" InternalName="garagestorage" Color="200 200 200" InteriorWall="43" InteriorWallTrim="30" Floor="19" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Garage Storage" InternalName="mechanic" Color="0 0 255" InteriorWall="43" InteriorWallTrim="30" Floor="19" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Corridor / Cafeteria" InternalName="storage" Color="128 128 128" InteriorWall="37" InteriorWallTrim="0" Floor="19" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Men's Restroom" InternalName="bathroom" Color="255 0 0" InteriorWall="40" InteriorWallTrim="29" Floor="23" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Womens Restroom" InternalName="bathroom" Color="0 255 0" InteriorWall="40" InteriorWallTrim="29" Floor="23" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Cafeteria Kitchen" InternalName="resturantkitchen" Color="0 255 255" InteriorWall="40" InteriorWallTrim="31" Floor="23" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Generator Room" InternalName="storage" Color="255 255 0" InteriorWall="43" InteriorWallTrim="30" Floor="19" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Water Room" InternalName="policestorage" Color="255 200 0" InteriorWall="43" InteriorWallTrim="30" Floor="19" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Maintence Storage" InternalName="toolstore" Color="255 150 0" InteriorWall="43" InteriorWallTrim="30" Floor="19" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Water" InternalName="room10" Color="255 110 0" InteriorWall="43" InteriorWallTrim="30" Floor="17" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Maintence Sector" InternalName="bedroom" Color="255 255 255" InteriorWall="37" InteriorWallTrim="0" Floor="19" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Cafeteria Storage" InternalName="resturantkitchen" Color="255 255 255" InteriorWall="37" InteriorWallTrim="31" Floor="23" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Armory Office" InternalName="poststorage" Color="255 255 255" InteriorWall="37" InteriorWallTrim="0" Floor="19" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Armory" InternalName="gunstorestorage" Color="255 255 255" InteriorWall="37" InteriorWallTrim="0" Floor="19" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Living Area Sector" InternalName="storage" Color="255 255 255" InteriorWall="37" InteriorWallTrim="0" Floor="19" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Showers" InternalName="bathroom" Color="255 255 255" InteriorWall="37" InteriorWallTrim="30" Floor="19" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Barracks" InternalName="storage" Color="255 255 255" InteriorWall="37" InteriorWallTrim="30" Floor="19" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Lockeroom" InternalName="bedroom" Color="255 255 255" InteriorWall="37" InteriorWallTrim="30" Floor="19" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Medbay" InternalName="medclinic" Color="255 255 255" InteriorWall="37" InteriorWallTrim="30" Floor="19" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Medbay Storage" InternalName="medicalstorage" Color="255 255 255" InteriorWall="37" InteriorWallTrim="30" Floor="19" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Laundry" InternalName="laundry" Color="255 255 255" InteriorWall="37" InteriorWallTrim="30" Floor="19" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Library" InternalName="library" Color="255 255 255" InteriorWall="37" InteriorWallTrim="30" Floor="19" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Brief Room" InternalName="poststorage" Color="255 255 255" InteriorWall="37" InteriorWallTrim="0" Floor="19" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Quarters Private" InternalName="livingroom" Color="255 255 255" InteriorWall="46" InteriorWallTrim="28" Floor="20" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Private Bathroom" InternalName="bathroom" Color="255 255 255" InteriorWall="44" InteriorWallTrim="0" Floor="22" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Private Bedroom" InternalName="bedroom" Color="255 255 255" InteriorWall="46" InteriorWallTrim="28" Floor="20" GrimeFloor="25" GrimeWall="26"/>
+ <room Name="Filler" InternalName="room27" Color="255 255 255" InteriorWall="42" InteriorWallTrim="0" Floor="19" GrimeFloor="25" GrimeWall="26"/>
  <floor>
   <object type="furniture" FurnitureTiles="0" orient="W" x="31" y="33"/>
   <object type="furniture" FurnitureTiles="1" orient="E" x="31" y="30"/>
@@ -2633,8 +2603,8 @@
   <object type="door" FrameTile="0" x="21" y="30" dir="N" Tile="9"/>
   <object type="door" FrameTile="0" x="18" y="30" dir="N" Tile="9"/>
   <object type="door" FrameTile="0" x="23" y="31" dir="W" Tile="8"/>
-  <object type="wall" length="3" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="31" y="34" dir="W" Tile="17"/>
-  <object type="wall" length="3" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="31" y="30" dir="W" Tile="17"/>
+  <object type="wall" length="3" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="31" y="34" dir="W" Tile="16"/>
+  <object type="wall" length="3" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="31" y="30" dir="W" Tile="16"/>
   <object type="furniture" FurnitureTiles="4" orient="E" x="20" y="29"/>
   <object type="furniture" FurnitureTiles="5" orient="S" x="20" y="29"/>
   <object type="furniture" FurnitureTiles="6" orient="E" x="21" y="24"/>
@@ -2761,14 +2731,14 @@
   <object type="furniture" FurnitureTiles="50" orient="S" x="11" y="28"/>
   <object type="furniture" FurnitureTiles="53" orient="W" x="9" y="25"/>
   <object type="furniture" FurnitureTiles="54" orient="W" x="9" y="24"/>
-  <object type="wall" length="3" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="9" y="26" dir="N" Tile="17"/>
+  <object type="wall" length="3" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="9" y="26" dir="N" Tile="16"/>
   <object type="furniture" FurnitureTiles="55" orient="W" x="10" y="26"/>
   <object type="furniture" FurnitureTiles="56" orient="W" x="7" y="26"/>
   <object type="furniture" FurnitureTiles="57" orient="E" x="8" y="26"/>
   <object type="furniture" FurnitureTiles="57" orient="E" x="8" y="27"/>
   <object type="furniture" FurnitureTiles="57" orient="E" x="8" y="28"/>
-  <object type="wall" length="1" InteriorTile="43" ExteriorTrim="0" InteriorTrim="33" x="8" y="26" dir="W" Tile="17"/>
-  <object type="wall" length="1" InteriorTile="43" ExteriorTrim="0" InteriorTrim="33" x="8" y="29" dir="W" Tile="17"/>
+  <object type="wall" length="1" InteriorTile="40" ExteriorTrim="0" InteriorTrim="31" x="8" y="26" dir="W" Tile="16"/>
+  <object type="wall" length="1" InteriorTile="40" ExteriorTrim="0" InteriorTrim="31" x="8" y="29" dir="W" Tile="16"/>
   <object type="furniture" FurnitureTiles="58" orient="W" x="5" y="24"/>
   <object type="furniture" FurnitureTiles="59" orient="W" x="7" y="29"/>
   <object type="furniture" FurnitureTiles="5" orient="N" x="6" y="24"/>
@@ -2906,8 +2876,8 @@
   <object type="furniture" FurnitureTiles="32" orient="W" x="9" y="49"/>
   <object type="furniture" FurnitureTiles="37" orient="S" x="10" y="44"/>
   <object type="furniture" FurnitureTiles="37" orient="N" x="8" y="44"/>
-  <object type="wall" length="2" InteriorTile="39" ExteriorTrim="0" InteriorTrim="28" x="8" y="44" dir="N" Tile="17"/>
-  <object type="wall" length="3" InteriorTile="39" ExteriorTrim="0" InteriorTrim="28" x="8" y="46" dir="W" Tile="17"/>
+  <object type="wall" length="2" InteriorTile="36" ExteriorTrim="0" InteriorTrim="27" x="8" y="44" dir="N" Tile="16"/>
+  <object type="wall" length="3" InteriorTile="36" ExteriorTrim="0" InteriorTrim="27" x="8" y="46" dir="W" Tile="16"/>
   <object type="door" FrameTile="0" x="11" y="47" dir="W" Tile="8"/>
   <object type="furniture" FurnitureTiles="85" orient="N" x="23" y="32"/>
   <object type="furniture" FurnitureTiles="61" orient="W" x="23" y="31"/>
@@ -2997,7 +2967,7 @@
   <object type="furniture" FurnitureTiles="84" orient="S" x="20" y="36"/>
   <object type="furniture" FurnitureTiles="84" orient="S" x="14" y="40"/>
   <object type="furniture" FurnitureTiles="42" orient="W" x="14" y="39"/>
-  <object type="wall" length="1" InteriorTile="0" ExteriorTrim="0" InteriorTrim="28" x="4" y="31" dir="W" Tile="17"/>
+  <object type="wall" length="1" InteriorTile="0" ExteriorTrim="0" InteriorTrim="27" x="4" y="31" dir="W" Tile="16"/>
   <object type="furniture" FurnitureTiles="92" orient="W" x="3" y="31"/>
   <object type="furniture" FurnitureTiles="92" orient="W" x="3" y="32"/>
   <object type="furniture" FurnitureTiles="81" orient="W" x="3" y="33"/>
@@ -3007,7 +2977,7 @@
   <object type="furniture" FurnitureTiles="0" orient="W" x="11" y="38"/>
   <object type="furniture" FurnitureTiles="0" orient="W" x="11" y="48"/>
   <object type="furniture" FurnitureTiles="93" orient="N" x="11" y="38"/>
-  <object type="wall" length="2" InteriorTile="0" ExteriorTrim="0" InteriorTrim="28" x="11" y="38" dir="W" Tile="17"/>
+  <object type="wall" length="2" InteriorTile="0" ExteriorTrim="0" InteriorTrim="27" x="11" y="38" dir="W" Tile="16"/>
   <object type="door" FrameTile="0" x="12" y="38" dir="N" Tile="12"/>
   <object type="door" FrameTile="0" x="11" y="38" dir="N" Tile="11"/>
   <object type="furniture" FurnitureTiles="49" orient="W" x="11" y="44"/>
@@ -3088,7 +3058,7 @@
   <object type="furniture" FurnitureTiles="41" orient="N" x="7" y="20"/>
   <object type="furniture" FurnitureTiles="30" orient="E" x="8" y="15"/>
   <object type="furniture" FurnitureTiles="30" orient="N" x="5" y="18"/>
-  <object type="wall" length="1" InteriorTile="44" ExteriorTrim="0" InteriorTrim="33" x="18" y="18" dir="N" Tile="17"/>
+  <object type="wall" length="1" InteriorTile="41" ExteriorTrim="0" InteriorTrim="31" x="18" y="18" dir="N" Tile="16"/>
   <object type="furniture" FurnitureTiles="55" orient="W" x="14" y="19"/>
   <object type="furniture" FurnitureTiles="55" orient="N" x="13" y="20"/>
   <object type="furniture" FurnitureTiles="55" orient="E" x="11" y="19"/>
@@ -3100,14 +3070,14 @@
   <object type="furniture" FurnitureTiles="110" orient="N" x="15" y="18"/>
   <object type="furniture" FurnitureTiles="110" orient="N" x="13" y="18"/>
   <object type="door" FrameTile="0" x="11" y="18" dir="W" Tile="9"/>
-  <object type="wall" length="1" InteriorTile="44" ExteriorTrim="0" InteriorTrim="32" x="20" y="18" dir="N" Tile="17"/>
-  <object type="wall" length="1" InteriorTile="44" ExteriorTrim="0" InteriorTrim="32" x="19" y="18" dir="N" Tile="17"/>
-  <object type="wall" length="1" InteriorTile="44" ExteriorTrim="0" InteriorTrim="32" x="18" y="18" dir="N" Tile="17"/>
-  <object type="wall" length="1" InteriorTile="44" ExteriorTrim="0" InteriorTrim="32" x="13" y="18" dir="N" Tile="17"/>
-  <object type="wall" length="1" InteriorTile="44" ExteriorTrim="0" InteriorTrim="32" x="14" y="18" dir="N" Tile="17"/>
-  <object type="wall" length="1" InteriorTile="44" ExteriorTrim="0" InteriorTrim="32" x="15" y="18" dir="N" Tile="17"/>
-  <object type="wall" length="1" InteriorTile="44" ExteriorTrim="0" InteriorTrim="32" x="16" y="18" dir="N" Tile="17"/>
-  <object type="wall" length="1" InteriorTile="44" ExteriorTrim="0" InteriorTrim="32" x="17" y="18" dir="N" Tile="17"/>
+  <object type="wall" length="1" InteriorTile="41" ExteriorTrim="0" InteriorTrim="30" x="20" y="18" dir="N" Tile="16"/>
+  <object type="wall" length="1" InteriorTile="41" ExteriorTrim="0" InteriorTrim="30" x="19" y="18" dir="N" Tile="16"/>
+  <object type="wall" length="1" InteriorTile="41" ExteriorTrim="0" InteriorTrim="30" x="18" y="18" dir="N" Tile="16"/>
+  <object type="wall" length="1" InteriorTile="41" ExteriorTrim="0" InteriorTrim="30" x="13" y="18" dir="N" Tile="16"/>
+  <object type="wall" length="1" InteriorTile="41" ExteriorTrim="0" InteriorTrim="30" x="14" y="18" dir="N" Tile="16"/>
+  <object type="wall" length="1" InteriorTile="41" ExteriorTrim="0" InteriorTrim="30" x="15" y="18" dir="N" Tile="16"/>
+  <object type="wall" length="1" InteriorTile="41" ExteriorTrim="0" InteriorTrim="30" x="16" y="18" dir="N" Tile="16"/>
+  <object type="wall" length="1" InteriorTile="41" ExteriorTrim="0" InteriorTrim="30" x="17" y="18" dir="N" Tile="16"/>
   <object type="furniture" FurnitureTiles="110" orient="N" x="14" y="18"/>
   <object type="furniture" FurnitureTiles="54" orient="N" x="12" y="18"/>
   <object type="furniture" FurnitureTiles="23" orient="N" x="13" y="19"/>
@@ -3118,8 +3088,8 @@
   <object type="furniture" FurnitureTiles="111" orient="N" x="21" y="18"/>
   <object type="furniture" FurnitureTiles="111" orient="N" x="21" y="20"/>
   <object type="furniture" FurnitureTiles="112" orient="W" x="21" y="18"/>
-  <object type="wall" length="8" InteriorTile="43" ExteriorTrim="0" InteriorTrim="32" x="13" y="20" dir="W" Tile="17"/>
-  <object type="wall" length="4" InteriorTile="43" ExteriorTrim="0" InteriorTrim="32" x="21" y="18" dir="N" Tile="17"/>
+  <object type="wall" length="8" InteriorTile="40" ExteriorTrim="0" InteriorTrim="30" x="13" y="20" dir="W" Tile="16"/>
+  <object type="wall" length="4" InteriorTile="40" ExteriorTrim="0" InteriorTrim="30" x="21" y="18" dir="N" Tile="16"/>
   <object type="furniture" FurnitureTiles="113" orient="N" x="13" y="20"/>
   <object type="furniture" FurnitureTiles="113" orient="N" x="14" y="20"/>
   <object type="furniture" FurnitureTiles="113" orient="N" x="15" y="20"/>
@@ -3201,7 +3171,7 @@
   <object type="furniture" FurnitureTiles="57" orient="W" x="5" y="13"/>
   <object type="furniture" FurnitureTiles="115" orient="W" x="5" y="13"/>
   <object type="furniture" FurnitureTiles="93" orient="N" x="9" y="18"/>
-  <object type="wall" length="2" InteriorTile="0" ExteriorTrim="0" InteriorTrim="32" x="9" y="18" dir="W" Tile="17"/>
+  <object type="wall" length="2" InteriorTile="0" ExteriorTrim="0" InteriorTrim="30" x="9" y="18" dir="W" Tile="16"/>
   <object type="furniture" FurnitureTiles="42" orient="W" x="9" y="17"/>
   <object type="furniture" FurnitureTiles="97" orient="N" x="10" y="17"/>
   <object type="furniture" FurnitureTiles="84" orient="E" x="10" y="18"/>
@@ -3580,8 +3550,9 @@
   <object type="furniture" FurnitureTiles="156" orient="E" x="23" y="50"/>
   <object type="furniture" FurnitureTiles="156" orient="E" x="24" y="50"/>
   <object type="furniture" FurnitureTiles="156" orient="E" x="25" y="50"/>
+  <object type="furniture" FurnitureTiles="39" orient="S" x="33" y="33"/>
+  <object type="furniture" FurnitureTiles="39" orient="S" x="32" y="33"/>
   <object type="furniture" FurnitureTiles="39" orient="E" x="31" y="33"/>
-  <object type="wall" length="3" InteriorTile="35" ExteriorTrim="13" InteriorTrim="29" x="31" y="30" dir="N" Tile="0"/>
   <rooms>
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -3639,8 +3610,8 @@
 </rooms>
  </floor>
  <floor>
-  <object type="roof" width="3" height="4" RoofType="FlatTop" Depth="Zero" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="50" SlopeTiles="51" TopTiles="53" x="31" y="30"/>
-  <object type="roof" width="28" height="47" RoofType="FlatTop" Depth="Zero" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="50" SlopeTiles="51" TopTiles="52" x="3" y="3"/>
+  <object type="roof" width="3" height="4" RoofType="FlatTop" Depth="Zero" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="47" SlopeTiles="48" TopTiles="50" x="31" y="30"/>
+  <object type="roof" width="28" height="47" RoofType="FlatTop" Depth="Zero" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="47" SlopeTiles="48" TopTiles="49" x="3" y="3"/>
   <object type="furniture" FurnitureTiles="159" orient="W" x="34" y="25"/>
   <object type="furniture" FurnitureTiles="159" orient="W" x="25" y="12"/>
   <object type="furniture" FurnitureTiles="159" orient="W" x="15" y="27"/>

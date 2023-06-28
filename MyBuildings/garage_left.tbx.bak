@@ -297,20 +297,6 @@
    <tile x="0" y="0" name="furniture_shelving_01_031"/>
   </entry>
  </furniture>
- <furniture>
-  <entry orient="W">
-   <tile x="0" y="0" name="blends_grassoverlays_01_018"/>
-  </entry>
-  <entry orient="N">
-   <tile x="0" y="0" name="blends_grassoverlays_01_012"/>
-  </entry>
-  <entry orient="E">
-   <tile x="0" y="0" name="blends_grassoverlays_01_013"/>
-  </entry>
-  <entry orient="S">
-   <tile x="0" y="0" name="blends_grassoverlays_01_008"/>
-  </entry>
- </furniture>
  <furniture layer="WallOverlay">
   <entry orient="W">
    <tile x="0" y="0" name="overlay_grime_wall_01_021"/>
@@ -331,20 +317,6 @@
   </entry>
   <entry orient="N">
    <tile x="0" y="0" name="trashcontainers_01_025"/>
-  </entry>
- </furniture>
- <furniture>
-  <entry orient="W">
-   <tile x="0" y="0" name="overlay_blood_floor_01_004"/>
-  </entry>
-  <entry orient="N">
-   <tile x="0" y="0" name="overlay_blood_floor_01_007"/>
-  </entry>
-  <entry orient="E">
-   <tile x="0" y="0" name="overlay_blood_floor_01_006"/>
-  </entry>
-  <entry orient="S">
-   <tile x="0" y="0" name="overlay_blood_floor_01_005"/>
   </entry>
  </furniture>
  <furniture/>
@@ -458,6 +430,20 @@
    <tile x="1" y="0" name="furniture_shelving_01_027"/>
   </entry>
  </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="blends_grassoverlays_01_018"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="blends_grassoverlays_01_012"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="blends_grassoverlays_01_013"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="blends_grassoverlays_01_008"/>
+  </entry>
+ </furniture>
  <furniture layer="WallOverlay">
   <entry orient="W">
    <tile x="0" y="0" name="vegetation_wall_01_000"/>
@@ -470,6 +456,20 @@
   </entry>
   <entry orient="S">
    <tile x="0" y="0" name="vegetation_wall_01_003"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="overlay_blood_floor_01_004"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="overlay_blood_floor_01_007"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="overlay_blood_floor_01_006"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="overlay_blood_floor_01_005"/>
   </entry>
  </furniture>
  <furniture layer="WallFurniture">
@@ -496,7 +496,7 @@
  </furniture>
  <user_tiles/>
  <used_tiles>3 10 7 8 9 5 13 14 15 17 19 18 6 4 12 11</used_tiles>
- <used_furniture>6 6 7 6 0 8 9 10 11 1 2 12 3 5 13 4 14</used_furniture>
+ <used_furniture>4 4 5 4 0 6 7 8 9 1 10 11 2 12 13 3 14</used_furniture>
  <room Name="Garage" InternalName="storage" Color="200 200 200" InteriorWall="10" InteriorWallTrim="0" Floor="7" GrimeFloor="8" GrimeWall="9"/>
  <floor>
   <object type="furniture" FurnitureTiles="0" orient="N" x="2" y="6"/>
@@ -504,25 +504,9 @@
   <object type="window" CurtainsTile="0" ShuttersTile="0" x="2" y="3" dir="W" Tile="18"/>
   <object type="furniture" FurnitureTiles="1" orient="E" x="4" y="1"/>
   <object type="furniture" FurnitureTiles="1" orient="E" x="4" y="2"/>
-  <object type="furniture" FurnitureTiles="2" orient="N" x="1" y="4"/>
-  <object type="furniture" FurnitureTiles="2" orient="S" x="1" y="3"/>
-  <object type="furniture" FurnitureTiles="2" orient="N" x="1" y="2"/>
-  <object type="furniture" FurnitureTiles="2" orient="N" x="1" y="1"/>
-  <object type="furniture" FurnitureTiles="2" orient="W" x="5" y="4"/>
-  <object type="furniture" FurnitureTiles="2" orient="N" x="5" y="3"/>
-  <object type="furniture" FurnitureTiles="2" orient="N" x="5" y="2"/>
-  <object type="furniture" FurnitureTiles="2" orient="S" x="2" y="0"/>
-  <object type="furniture" FurnitureTiles="2" orient="W" x="3" y="0"/>
-  <object type="furniture" FurnitureTiles="2" orient="E" x="4" y="0"/>
-  <object type="furniture" FurnitureTiles="2" orient="N" x="5" y="1"/>
-  <object type="furniture" FurnitureTiles="3" orient="S" x="4" y="1"/>
-  <object type="furniture" FurnitureTiles="3" orient="N" x="4" y="4"/>
-  <object type="furniture" FurnitureTiles="3" orient="W" x="2" y="1"/>
-  <object type="furniture" FurnitureTiles="4" orient="S" x="2" y="1"/>
-  <object type="furniture" FurnitureTiles="4" orient="W" x="2" y="2"/>
-  <object type="furniture" FurnitureTiles="3" orient="N" x="1" y="2"/>
-  <object type="furniture" FurnitureTiles="5" orient="W" x="4" y="1"/>
-  <object type="furniture" FurnitureTiles="5" orient="N" x="2" y="5"/>
+  <object type="furniture" FurnitureTiles="2" orient="W" x="2" y="1"/>
+  <object type="furniture" FurnitureTiles="3" orient="S" x="2" y="1"/>
+  <object type="furniture" FurnitureTiles="3" orient="W" x="2" y="2"/>
   <rooms>
 0,0,0,0,0,0,
 0,0,1,1,1,0,

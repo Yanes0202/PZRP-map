@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<building version="3" width="20" height="15" ExteriorWall="3" ExteriorWallTrim="0" Door="2" DoorFrame="1" Window="0" Curtains="0" Shutters="0" Stairs="20" RoofCap="14" RoofSlope="16" RoofTop="17" GrimeWall="10">
+<building version="3" width="20" height="15" ExteriorWall="3" ExteriorWallTrim="0" Door="2" DoorFrame="0" Window="0" Curtains="0" Shutters="0" Stairs="21" RoofCap="16" RoofSlope="17" RoofTop="18" GrimeWall="10">
  <tile_entry category="door_frames">
   <tile enum="West" tile="fixtures_doors_frames_01_004"/>
   <tile enum="North" tile="fixtures_doors_frames_01_005"/>
@@ -160,6 +160,40 @@
   <tile enum="CapShallowRiseE2" tile=""/>
   <tile enum="CapShallowFallE1" tile=""/>
   <tile enum="CapShallowFallE2" tile=""/>
+ </tile_entry>
+ <tile_entry category="roof_caps">
+  <tile enum="CapRiseE1" tile="walls_exterior_roofs_03_024"/>
+  <tile enum="CapRiseE2" tile="walls_exterior_roofs_03_025"/>
+  <tile enum="CapRiseE3" tile="walls_exterior_roofs_03_026"/>
+  <tile enum="CapFallE1" tile="walls_exterior_roofs_03_032"/>
+  <tile enum="CapFallE2" tile="walls_exterior_roofs_03_033"/>
+  <tile enum="CapFallE3" tile="walls_exterior_roofs_03_034"/>
+  <tile enum="CapRiseS1" tile="walls_exterior_roofs_03_037"/>
+  <tile enum="CapRiseS2" tile="walls_exterior_roofs_03_036"/>
+  <tile enum="CapRiseS3" tile="walls_exterior_roofs_03_035"/>
+  <tile enum="CapFallS1" tile="walls_exterior_roofs_03_029"/>
+  <tile enum="CapFallS2" tile="walls_exterior_roofs_03_028"/>
+  <tile enum="CapFallS3" tile="walls_exterior_roofs_03_027"/>
+  <tile enum="PeakPt5S" tile="walls_exterior_roofs_03_031"/>
+  <tile enum="PeakPt5E" tile="walls_exterior_roofs_03_039"/>
+  <tile enum="PeakOnePt5S" tile="walls_exterior_roofs_03_030"/>
+  <tile enum="PeakOnePt5E" tile="walls_exterior_roofs_03_038"/>
+  <tile enum="PeakTwoPt5S" tile="walls_exterior_roofs_03_041"/>
+  <tile enum="PeakTwoPt5E" tile="walls_exterior_roofs_03_040"/>
+  <tile enum="CapGapS1" tile=""/>
+  <tile enum="CapGapS2" tile=""/>
+  <tile enum="CapGapS3" tile="walls_exterior_house_01_033"/>
+  <tile enum="CapGapE1" tile=""/>
+  <tile enum="CapGapE2" tile=""/>
+  <tile enum="CapGapE3" tile="walls_exterior_house_01_032"/>
+  <tile enum="CapShallowRiseS1" tile="walls_exterior_roofs_03_070"/>
+  <tile enum="CapShallowRiseS2" tile="walls_exterior_roofs_03_071"/>
+  <tile enum="CapShallowFallS1" tile="walls_exterior_roofs_03_067"/>
+  <tile enum="CapShallowFallS2" tile="walls_exterior_roofs_03_066"/>
+  <tile enum="CapShallowRiseE1" tile="walls_exterior_roofs_03_064"/>
+  <tile enum="CapShallowRiseE2" tile="walls_exterior_roofs_03_065"/>
+  <tile enum="CapShallowFallE1" tile="walls_exterior_roofs_03_069"/>
+  <tile enum="CapShallowFallE2" tile="walls_exterior_roofs_03_068"/>
  </tile_entry>
  <tile_entry category="roof_slopes">
   <tile enum="SlopeS1" tile="roofs_02_000"/>
@@ -461,7 +495,7 @@
   <tile tile="blends_natural_01_048"/>
   <tile tile="blends_natural_01_064"/>
  </user_tiles>
- <used_tiles>2 1 21 15 16 18 3 20 10 13 7 9 19 17 14 8 12 11 4 5 6</used_tiles>
+ <used_tiles>2 1 22 15 17 19 3 21 10 13 7 9 20 18 14 8 12 11 4 5 6 16</used_tiles>
  <used_furniture>0 4 1 2 3 10 17 18 18 5 6 7 8 9 11 19 12 13 14 15 16</used_furniture>
  <room Name="Church main hall" InternalName="room1" Color="200 200 200" InteriorWall="13" InteriorWallTrim="0" Floor="7" GrimeFloor="9" GrimeWall="10"/>
  <floor>
@@ -476,16 +510,14 @@
   <object type="furniture" FurnitureTiles="3" orient="W" x="3" y="6"/>
   <object type="furniture" FurnitureTiles="3" orient="W" x="3" y="3"/>
   <object type="furniture" FurnitureTiles="4" orient="E" x="4" y="5"/>
-  <object type="door" FrameTile="1" x="17" y="5" dir="W" Tile="2"/>
-  <object type="door" FrameTile="1" x="17" y="6" dir="W" Tile="2"/>
-  <object type="window" CurtainsTile="0" ShuttersTile="0" x="4" y="9" dir="N" Tile="21"/>
-  <object type="window" CurtainsTile="0" ShuttersTile="0" x="8" y="9" dir="N" Tile="21"/>
-  <object type="window" CurtainsTile="0" ShuttersTile="0" x="14" y="9" dir="N" Tile="21"/>
-  <object type="window" CurtainsTile="0" ShuttersTile="0" x="10" y="9" dir="N" Tile="21"/>
-  <object type="window" CurtainsTile="0" ShuttersTile="0" x="4" y="3" dir="N" Tile="21"/>
-  <object type="window" CurtainsTile="0" ShuttersTile="0" x="8" y="3" dir="N" Tile="21"/>
-  <object type="window" CurtainsTile="0" ShuttersTile="0" x="10" y="3" dir="N" Tile="21"/>
-  <object type="window" CurtainsTile="0" ShuttersTile="0" x="14" y="3" dir="N" Tile="21"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="4" y="9" dir="N" Tile="22"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="8" y="9" dir="N" Tile="22"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="14" y="9" dir="N" Tile="22"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="10" y="9" dir="N" Tile="22"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="4" y="3" dir="N" Tile="22"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="8" y="3" dir="N" Tile="22"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="10" y="3" dir="N" Tile="22"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="14" y="3" dir="N" Tile="22"/>
   <object type="furniture" FurnitureTiles="5" orient="W" x="5" y="10"/>
   <object type="furniture" FurnitureTiles="5" orient="N" x="7" y="10"/>
   <object type="furniture" FurnitureTiles="6" orient="W" x="9" y="10"/>
@@ -521,6 +553,8 @@
   <object type="furniture" FurnitureTiles="16" orient="W" x="10" y="7"/>
   <object type="furniture" FurnitureTiles="11" orient="E" x="14" y="4"/>
   <object type="furniture" FurnitureTiles="11" orient="W" x="12" y="4"/>
+  <object type="door" FrameTile="0" x="17" y="6" dir="W" Tile="2"/>
+  <object type="door" FrameTile="0" x="17" y="5" dir="W" Tile="2"/>
   <rooms>
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -558,10 +592,10 @@
 </tiles>
  </floor>
  <floor>
-  <object type="roof" width="1" height="1" RoofType="DormerS" Depth="Point5" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="14" SlopeTiles="16" TopTiles="17" x="15" y="6"/>
-  <object type="roof" width="1" height="4" RoofType="PeakWE" Depth="Two" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="14" SlopeTiles="16" TopTiles="17" x="16" y="4"/>
-  <object type="roof" width="13" height="6" RoofType="PeakWE" Depth="Three" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="14" SlopeTiles="16" TopTiles="17" x="3" y="3"/>
-  <object type="roof" width="1" height="3" RoofType="PeakWE" Depth="OnePoint5" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="14" SlopeTiles="16" TopTiles="17" x="2" y="5"/>
+  <object type="roof" width="1" height="1" RoofType="DormerS" Depth="Point5" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="16" SlopeTiles="17" TopTiles="18" x="15" y="6"/>
+  <object type="roof" width="1" height="4" RoofType="PeakWE" Depth="Two" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="16" SlopeTiles="17" TopTiles="18" x="16" y="4"/>
+  <object type="roof" width="13" height="6" RoofType="PeakWE" Depth="Three" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="16" SlopeTiles="17" TopTiles="18" x="3" y="3"/>
+  <object type="roof" width="1" height="3" RoofType="PeakWE" Depth="OnePoint5" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="16" SlopeTiles="17" TopTiles="18" x="2" y="5"/>
   <rooms>
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

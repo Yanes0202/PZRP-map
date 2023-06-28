@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <building version="3" width="8" height="14" ExteriorWall="13" ExteriorWallTrim="0" Door="8" DoorFrame="0" Window="60" Curtains="1" Shutters="57" Stairs="58" RoofCap="51" RoofSlope="52" RoofTop="54" GrimeWall="35">
+ <properties>
+  <property name="Legend" value="RestaurantsAndEntertainment"/>
+ </properties>
  <tile_entry category="curtains">
   <tile enum="West" tile="fixtures_windows_curtains_01_000"/>
   <tile enum="East" tile="fixtures_windows_curtains_01_001"/>
@@ -1073,28 +1076,16 @@
  </furniture>
  <furniture>
   <entry orient="W">
-   <tile x="0" y="0" name="furniture_bedding_01_042"/>
-   <tile x="0" y="1" name="furniture_bedding_01_040"/>
-   <tile x="1" y="0" name="furniture_bedding_01_043"/>
-   <tile x="1" y="1" name="furniture_bedding_01_041"/>
+   <tile x="0" y="0" name="furniture_bedding_01_014"/>
+   <tile x="0" y="1" name="furniture_bedding_01_012"/>
+   <tile x="1" y="0" name="furniture_bedding_01_015"/>
+   <tile x="1" y="1" name="furniture_bedding_01_013"/>
   </entry>
   <entry orient="N">
-   <tile x="0" y="0" name="furniture_bedding_01_045"/>
-   <tile x="0" y="1" name="furniture_bedding_01_044"/>
-   <tile x="1" y="0" name="furniture_bedding_01_047"/>
-   <tile x="1" y="1" name="furniture_bedding_01_046"/>
-  </entry>
-  <entry orient="E">
-   <tile x="0" y="0" name="furniture_bedding_01_050"/>
-   <tile x="0" y="1" name="furniture_bedding_01_048"/>
-   <tile x="1" y="0" name="furniture_bedding_01_051"/>
-   <tile x="1" y="1" name="furniture_bedding_01_049"/>
-  </entry>
-  <entry orient="S">
-   <tile x="0" y="0" name="furniture_bedding_01_053"/>
-   <tile x="0" y="1" name="furniture_bedding_01_052"/>
-   <tile x="1" y="0" name="furniture_bedding_01_055"/>
-   <tile x="1" y="1" name="furniture_bedding_01_054"/>
+   <tile x="0" y="0" name="furniture_bedding_01_005"/>
+   <tile x="0" y="1" name="furniture_bedding_01_004"/>
+   <tile x="1" y="0" name="furniture_bedding_01_007"/>
+   <tile x="1" y="1" name="furniture_bedding_01_006"/>
   </entry>
  </furniture>
  <furniture>
@@ -1157,6 +1148,32 @@
    <tile x="1" y="0" name="walls_decoration_01_037"/>
   </entry>
  </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="furniture_bedding_01_042"/>
+   <tile x="0" y="1" name="furniture_bedding_01_040"/>
+   <tile x="1" y="0" name="furniture_bedding_01_043"/>
+   <tile x="1" y="1" name="furniture_bedding_01_041"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="furniture_bedding_01_045"/>
+   <tile x="0" y="1" name="furniture_bedding_01_044"/>
+   <tile x="1" y="0" name="furniture_bedding_01_047"/>
+   <tile x="1" y="1" name="furniture_bedding_01_046"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="furniture_bedding_01_050"/>
+   <tile x="0" y="1" name="furniture_bedding_01_048"/>
+   <tile x="1" y="0" name="furniture_bedding_01_051"/>
+   <tile x="1" y="1" name="furniture_bedding_01_049"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="furniture_bedding_01_053"/>
+   <tile x="0" y="1" name="furniture_bedding_01_052"/>
+   <tile x="1" y="0" name="furniture_bedding_01_055"/>
+   <tile x="1" y="1" name="furniture_bedding_01_054"/>
+  </entry>
+ </furniture>
  <user_tiles>
   <tile tile="fixtures_railings_01_024"/>
   <tile tile="fixtures_railings_01_025"/>
@@ -1172,7 +1189,7 @@
   <tile tile="roofs_accents_01_021"/>
  </user_tiles>
  <used_tiles>11 46 25 21 44 23 42 43 18 13 12 37 49 48 28 29 30 31 32 10 14 61 47 45 20 22 59 15 33 34 57 24 40 38 7 6 60 9 50 27 26 8 41 17 2 5 39 16 19 4 3 51 52 55 56 53 54 36 1 35 58</used_tiles>
- <used_furniture>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 50 30 17 18 19 20 21 22 23 24 25 26 27 28 31 32 51 33 34 35 36 37 38 39 40 41 42 43 52 44 45 46 47 53 48 29 49</used_furniture>
+ <used_furniture>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 50 30 17 18 19 20 21 22 23 24 25 26 27 28 31 32 51 33 34 35 36 37 38 39 40 41 42 43 52 44 45 46 47 53 48 29 54 49</used_furniture>
  <room Name="Foyer" InternalName="hall" Color="255 255 255" InteriorWall="49" InteriorWallTrim="0" Floor="31" GrimeFloor="0" GrimeWall="0"/>
  <room Name="Hall" InternalName="hall" Color="200 200 200" InteriorWall="45" InteriorWallTrim="0" Floor="30" GrimeFloor="0" GrimeWall="0"/>
  <room Name="Living Room" InternalName="livingroom" Color="255 0 0" InteriorWall="47" InteriorWallTrim="0" Floor="20" GrimeFloor="0" GrimeWall="0"/>

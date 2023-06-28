@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<building version="2" width="14" height="14" ExteriorWall="8" ExteriorWallTrim="0" Door="6" DoorFrame="0" Window="50" Curtains="0" Shutters="0" Stairs="49" RoofCap="37" RoofSlope="40" RoofTop="48" GrimeWall="28">
+<building version="3" width="14" height="14" ExteriorWall="8" ExteriorWallTrim="0" Door="6" DoorFrame="0" Window="50" Curtains="0" Shutters="0" Stairs="49" RoofCap="37" RoofSlope="40" RoofTop="48" GrimeWall="28">
+ <properties>
+  <property name="Legend" value="RestaurantsAndEntertainment"/>
+ </properties>
  <tile_entry category="curtains">
   <tile enum="West" tile="fixtures_windows_curtains_01_048"/>
   <tile enum="East" tile="fixtures_windows_curtains_01_049"/>
@@ -215,6 +218,14 @@
   <tile enum="NorthWindow" tile="overlay_grime_wall_01_009"/>
   <tile enum="WestDoor" tile="overlay_grime_wall_01_010"/>
   <tile enum="NorthDoor" tile="overlay_grime_wall_01_011"/>
+  <tile enum="WestTrim" tile=""/>
+  <tile enum="NorthTrim" tile=""/>
+  <tile enum="NorthWestTrim" tile=""/>
+  <tile enum="SouthEastTrim" tile=""/>
+  <tile enum="WestDoubleLeft" tile=""/>
+  <tile enum="WestDoubleRight" tile=""/>
+  <tile enum="NorthDoubleLeft" tile=""/>
+  <tile enum="NorthDoubleRight" tile=""/>
  </tile_entry>
  <tile_entry category="grime_wall">
   <tile enum="West" tile="overlay_grime_wall_01_016"/>
@@ -225,6 +236,14 @@
   <tile enum="NorthWindow" tile="overlay_grime_wall_01_025"/>
   <tile enum="WestDoor" tile="overlay_grime_wall_01_026"/>
   <tile enum="NorthDoor" tile="overlay_grime_wall_01_027"/>
+  <tile enum="WestTrim" tile=""/>
+  <tile enum="NorthTrim" tile=""/>
+  <tile enum="NorthWestTrim" tile=""/>
+  <tile enum="SouthEastTrim" tile=""/>
+  <tile enum="WestDoubleLeft" tile=""/>
+  <tile enum="WestDoubleRight" tile=""/>
+  <tile enum="NorthDoubleLeft" tile=""/>
+  <tile enum="NorthDoubleRight" tile=""/>
  </tile_entry>
  <tile_entry category="interior_walls">
   <tile enum="West" tile="fixtures_bathroom_02_000"/>
@@ -1225,7 +1244,7 @@
   <tile tile="walls_interior_detailing_01_040"/>
   <tile tile="walls_interior_detailing_01_043"/>
  </user_tiles>
- <used_tiles>7 29 21 49 34 24 35 23 32 33 17 30 3 5 6 4 50 1 2 31 22 28 27 25 36 39 47 8 37 38 40 42 41 43 44 45 46 48 26 10 9 12 11 13 14 15 16 18 0 19 0 20</used_tiles>
+ <used_tiles>7 29 21 49 34 24 35 23 32 33 17 30 3 5 6 4 50 1 2 31 22 28 27 25 36 39 47 8 37 38 40 42 41 43 44 45 46 48 26 10 9 12 11 13 14 15 16 18 19 20</used_tiles>
  <used_furniture>0 1 29 2 3 4 5 6 7 8 30 9 31 10 11 32 33 12 13 14 15 16 17 18 19 20 21 24 25 26 27 28 22 23</used_furniture>
  <room Name="bar" InternalName="bar" Color="200 200 200" InteriorWall="32" InteriorWallTrim="0" Floor="24" GrimeFloor="25" GrimeWall="27"/>
  <room Name="bedroom" InternalName="bedroom" Color="128 128 128" InteriorWall="34" InteriorWallTrim="0" Floor="24" GrimeFloor="26" GrimeWall="28"/>

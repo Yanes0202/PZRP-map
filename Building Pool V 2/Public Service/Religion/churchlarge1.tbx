@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<building version="2" width="23" height="15" ExteriorWall="8" ExteriorWallTrim="0" Door="3" DoorFrame="0" Window="25" Curtains="0" Shutters="0" Stairs="24" RoofCap="19" RoofSlope="20" RoofTop="23" GrimeWall="12">
+<building version="3" width="23" height="15" ExteriorWall="8" ExteriorWallTrim="0" Door="3" DoorFrame="0" Window="25" Curtains="0" Shutters="0" Stairs="24" RoofCap="19" RoofSlope="20" RoofTop="23" GrimeWall="12">
+ <properties>
+  <property name="Legend" value="CommunityServices"/>
+ </properties>
  <tile_entry category="door_frames">
   <tile enum="West" tile="fixtures_doors_frames_01_000"/>
   <tile enum="North" tile="fixtures_doors_frames_01_001"/>
@@ -86,6 +89,14 @@
   <tile enum="NorthWindow" tile="overlay_grime_wall_01_025"/>
   <tile enum="WestDoor" tile="overlay_grime_wall_01_026"/>
   <tile enum="NorthDoor" tile="overlay_grime_wall_01_027"/>
+  <tile enum="WestTrim" tile=""/>
+  <tile enum="NorthTrim" tile=""/>
+  <tile enum="NorthWestTrim" tile=""/>
+  <tile enum="SouthEastTrim" tile=""/>
+  <tile enum="WestDoubleLeft" tile=""/>
+  <tile enum="WestDoubleRight" tile=""/>
+  <tile enum="NorthDoubleLeft" tile=""/>
+  <tile enum="NorthDoubleRight" tile=""/>
  </tile_entry>
  <tile_entry category="interior_wall_trim">
   <tile enum="West" tile="industry_bunker_01_024"/>

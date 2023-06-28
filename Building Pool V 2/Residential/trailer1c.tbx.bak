@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <building version="3" width="13" height="5" ExteriorWall="11" ExteriorWallTrim="0" Door="3" DoorFrame="0" Window="22" Curtains="2" Shutters="0" Stairs="20" RoofCap="17" RoofSlope="18" RoofTop="19" GrimeWall="0">
+ <properties>
+  <property name="Legend" value="Medical"/>
+ </properties>
  <tile_entry category="curtains">
   <tile enum="West" tile="fixtures_windows_curtains_01_032"/>
   <tile enum="East" tile="fixtures_windows_curtains_01_033"/>
@@ -453,6 +456,32 @@
  </furniture>
  <furniture>
   <entry orient="W">
+   <tile x="0" y="0" name="furniture_bedding_01_042"/>
+   <tile x="0" y="1" name="furniture_bedding_01_040"/>
+   <tile x="1" y="0" name="furniture_bedding_01_043"/>
+   <tile x="1" y="1" name="furniture_bedding_01_041"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="furniture_bedding_01_045"/>
+   <tile x="0" y="1" name="furniture_bedding_01_044"/>
+   <tile x="1" y="0" name="furniture_bedding_01_047"/>
+   <tile x="1" y="1" name="furniture_bedding_01_046"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="furniture_bedding_01_050"/>
+   <tile x="0" y="1" name="furniture_bedding_01_048"/>
+   <tile x="1" y="0" name="furniture_bedding_01_051"/>
+   <tile x="1" y="1" name="furniture_bedding_01_049"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="furniture_bedding_01_053"/>
+   <tile x="0" y="1" name="furniture_bedding_01_052"/>
+   <tile x="1" y="0" name="furniture_bedding_01_055"/>
+   <tile x="1" y="1" name="furniture_bedding_01_054"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
    <tile x="0" y="0" name="location_trailer_02_039"/>
    <tile x="0" y="1" name="location_trailer_02_038"/>
    <tile x="0" y="2" name="location_trailer_02_037"/>
@@ -681,7 +710,7 @@
  </furniture>
  <user_tiles/>
  <used_tiles>21 3 1 16 12 13 14 11 4 5 9 10 6 15 7 8 22 2</used_tiles>
- <used_furniture>1 0 8 9 6 11 17 7 10 12 18 19 20 21 22 23 24 25 13 2 3 4 5 26 27 14 15 16</used_furniture>
+ <used_furniture>1 0 8 9 6 11 18 7 10 12 19 20 21 22 23 24 25 26 13 2 3 4 5 27 28 14 16 17 15</used_furniture>
  <room Name="Living Room" InternalName="livingroom" Color="200 200 200" InteriorWall="16" InteriorWallTrim="0" Floor="12" GrimeFloor="13" GrimeWall="14"/>
  <room Name="Bathroom" InternalName="bathroom" Color="128 128 128" InteriorWall="16" InteriorWallTrim="0" Floor="12" GrimeFloor="0" GrimeWall="0"/>
  <room Name="Bedroom" InternalName="bedroom" Color="255 0 0" InteriorWall="16" InteriorWallTrim="0" Floor="12" GrimeFloor="13" GrimeWall="14"/>
@@ -748,6 +777,7 @@
   <object type="furniture" FurnitureTiles="14" orient="N" x="2" y="4"/>
   <object type="furniture" FurnitureTiles="14" orient="N" x="1" y="4"/>
   <object type="furniture" FurnitureTiles="14" orient="N" x="0" y="4"/>
+  <object type="furniture" FurnitureTiles="15" orient="S" x="1" y="2"/>
   <rooms>
 3,3,3,3,1,1,1,1,1,1,1,1,0,
 3,3,3,3,1,1,1,1,1,1,1,1,0,
@@ -757,19 +787,19 @@
 </rooms>
  </floor>
  <floor>
-  <object type="furniture" FurnitureTiles="15" orient="W" x="11" y="0"/>
-  <object type="furniture" FurnitureTiles="15" orient="W" x="9" y="0"/>
-  <object type="furniture" FurnitureTiles="15" orient="W" x="10" y="0"/>
-  <object type="furniture" FurnitureTiles="15" orient="W" x="8" y="0"/>
-  <object type="furniture" FurnitureTiles="15" orient="W" x="7" y="0"/>
-  <object type="furniture" FurnitureTiles="15" orient="W" x="5" y="0"/>
-  <object type="furniture" FurnitureTiles="15" orient="W" x="6" y="0"/>
-  <object type="furniture" FurnitureTiles="15" orient="W" x="3" y="0"/>
-  <object type="furniture" FurnitureTiles="15" orient="W" x="4" y="0"/>
-  <object type="furniture" FurnitureTiles="15" orient="W" x="1" y="0"/>
-  <object type="furniture" FurnitureTiles="15" orient="W" x="2" y="0"/>
-  <object type="furniture" FurnitureTiles="15" orient="W" x="0" y="0"/>
-  <object type="furniture" FurnitureTiles="16" orient="W" x="12" y="0"/>
+  <object type="furniture" FurnitureTiles="16" orient="W" x="11" y="0"/>
+  <object type="furniture" FurnitureTiles="16" orient="W" x="9" y="0"/>
+  <object type="furniture" FurnitureTiles="16" orient="W" x="10" y="0"/>
+  <object type="furniture" FurnitureTiles="16" orient="W" x="8" y="0"/>
+  <object type="furniture" FurnitureTiles="16" orient="W" x="7" y="0"/>
+  <object type="furniture" FurnitureTiles="16" orient="W" x="5" y="0"/>
+  <object type="furniture" FurnitureTiles="16" orient="W" x="6" y="0"/>
+  <object type="furniture" FurnitureTiles="16" orient="W" x="3" y="0"/>
+  <object type="furniture" FurnitureTiles="16" orient="W" x="4" y="0"/>
+  <object type="furniture" FurnitureTiles="16" orient="W" x="1" y="0"/>
+  <object type="furniture" FurnitureTiles="16" orient="W" x="2" y="0"/>
+  <object type="furniture" FurnitureTiles="16" orient="W" x="0" y="0"/>
+  <object type="furniture" FurnitureTiles="17" orient="W" x="12" y="0"/>
   <rooms>
 0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,

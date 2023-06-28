@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<building version="2" width="22" height="15" ExteriorWall="8" ExteriorWallTrim="0" Door="4" DoorFrame="3" Window="24" Curtains="0" Shutters="0" Stairs="23" RoofCap="19" RoofSlope="20" RoofTop="22" GrimeWall="14">
+<building version="3" width="22" height="15" ExteriorWall="8" ExteriorWallTrim="0" Door="4" DoorFrame="3" Window="24" Curtains="0" Shutters="0" Stairs="23" RoofCap="19" RoofSlope="20" RoofTop="22" GrimeWall="14">
+ <properties>
+  <property name="Legend" value="RetailAndCommercial"/>
+ </properties>
  <tile_entry category="door_frames">
   <tile enum="West" tile="fencing_01_046"/>
   <tile enum="North" tile="fencing_01_047"/>
@@ -88,6 +91,14 @@
   <tile enum="NorthWindow" tile="overlay_grime_wall_01_009"/>
   <tile enum="WestDoor" tile="overlay_grime_wall_01_010"/>
   <tile enum="NorthDoor" tile="overlay_grime_wall_01_011"/>
+  <tile enum="WestTrim" tile=""/>
+  <tile enum="NorthTrim" tile=""/>
+  <tile enum="NorthWestTrim" tile=""/>
+  <tile enum="SouthEastTrim" tile=""/>
+  <tile enum="WestDoubleLeft" tile=""/>
+  <tile enum="WestDoubleRight" tile=""/>
+  <tile enum="NorthDoubleLeft" tile=""/>
+  <tile enum="NorthDoubleRight" tile=""/>
  </tile_entry>
  <tile_entry category="interior_walls">
   <tile enum="West" tile="fencing_01_048"/>

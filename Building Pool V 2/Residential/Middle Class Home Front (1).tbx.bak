@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <building version="3" width="14" height="20" ExteriorWall="15" ExteriorWallTrim="0" Door="6" DoorFrame="5" Window="63" Curtains="2" Shutters="61" Stairs="62" RoofCap="49" RoofSlope="54" RoofTop="58" GrimeWall="31">
+ <properties>
+  <property name="Legend" value="Medical"/>
+ </properties>
  <tile_entry category="curtains">
   <tile enum="West" tile="fixtures_windows_curtains_01_004"/>
   <tile enum="East" tile="fixtures_windows_curtains_01_005"/>
@@ -1260,22 +1263,22 @@
    <tile x="0" y="0" name="fixtures_bathroom_01_003"/>
   </entry>
  </furniture>
- <furniture>
+ <furniture layer="FloorFurniture">
   <entry orient="W">
-   <tile x="0" y="0" name="floors_rugs_01_016"/>
+   <tile x="0" y="0" name="floors_rugs_01_022"/>
    <tile x="0" y="1" name="floors_rugs_01_018"/>
-   <tile x="0" y="2" name="floors_rugs_01_022"/>
-   <tile x="1" y="0" name="floors_rugs_01_017"/>
+   <tile x="0" y="2" name="floors_rugs_01_016"/>
+   <tile x="1" y="0" name="floors_rugs_01_023"/>
    <tile x="1" y="1" name="floors_rugs_01_019"/>
-   <tile x="1" y="2" name="floors_rugs_01_023"/>
+   <tile x="1" y="2" name="floors_rugs_01_017"/>
   </entry>
   <entry orient="N">
-   <tile x="0" y="0" name="floors_rugs_01_016"/>
-   <tile x="0" y="1" name="floors_rugs_01_022"/>
+   <tile x="0" y="0" name="floors_rugs_01_022"/>
+   <tile x="0" y="1" name="floors_rugs_01_016"/>
    <tile x="1" y="0" name="floors_rugs_01_021"/>
    <tile x="1" y="1" name="floors_rugs_01_020"/>
-   <tile x="2" y="0" name="floors_rugs_01_017"/>
-   <tile x="2" y="1" name="floors_rugs_01_023"/>
+   <tile x="2" y="0" name="floors_rugs_01_023"/>
+   <tile x="2" y="1" name="floors_rugs_01_017"/>
   </entry>
  </furniture>
  <furniture>
@@ -1550,6 +1553,24 @@
    <tile x="1" y="0" name="walls_decoration_01_041"/>
   </entry>
  </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="floors_rugs_01_016"/>
+   <tile x="0" y="1" name="floors_rugs_01_018"/>
+   <tile x="0" y="2" name="floors_rugs_01_022"/>
+   <tile x="1" y="0" name="floors_rugs_01_017"/>
+   <tile x="1" y="1" name="floors_rugs_01_019"/>
+   <tile x="1" y="2" name="floors_rugs_01_023"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="floors_rugs_01_016"/>
+   <tile x="0" y="1" name="floors_rugs_01_022"/>
+   <tile x="1" y="0" name="floors_rugs_01_021"/>
+   <tile x="1" y="1" name="floors_rugs_01_020"/>
+   <tile x="2" y="0" name="floors_rugs_01_017"/>
+   <tile x="2" y="1" name="floors_rugs_01_023"/>
+  </entry>
+ </furniture>
  <furniture layer="WallFurniture">
   <entry orient="W">
    <tile x="0" y="0" name="lighting_outdoor_01_041"/>
@@ -1578,7 +1599,7 @@
   <tile tile="roofs_02_022"/>
  </user_tiles>
  <used_tiles>15 39 28 40 25 42 43 23 44 47 12 13 18 52 53 20 50 16 51 60 56 14 31 32 45 37 24 36 62 27 29 26 8 5 6 63 1 7 30 35 22 46 33 21 38 41 54 49 4 3 55 57 59 58 64 61 19 17 11 48 9 10 34 2</used_tiles>
- <used_furniture>0 1 2 55 7 4 56 3 5 23 6 31 19 28 8 51 9 10 11 12 57 58 13 14 15 16 59 60 61 62 63 64 17 65 66 67 36 33 42 34 35 39 18 68 69 37 54 46 38 40 41 30 43 44 20 21 70 71 22 45 29 48 49 50 72 73 47 24 25 74 75 26 27 32 52 53</used_furniture>
+ <used_furniture>0 1 2 55 7 4 56 3 5 23 6 31 19 28 8 51 9 10 11 12 57 58 13 14 15 16 59 60 61 62 63 64 17 65 66 67 36 33 42 34 35 39 18 68 69 37 54 46 38 40 41 30 43 44 20 21 70 71 22 45 29 48 49 50 72 73 74 24 25 75 76 26 27 32 52 53 47</used_furniture>
  <room Name="Living Room" InternalName="livingroom" Color="255 0 0" InteriorWall="45" InteriorWallTrim="0" Floor="29" GrimeFloor="30" GrimeWall="32"/>
  <room Name="Dining Room" InternalName="diningroom" Color="255 0 128" InteriorWall="37" InteriorWallTrim="0" Floor="28" GrimeFloor="30" GrimeWall="32"/>
  <room Name="Bathroom" InternalName="bathroom" Color="255 128 0" InteriorWall="36" InteriorWallTrim="0" Floor="25" GrimeFloor="30" GrimeWall="32"/>

@@ -563,22 +563,22 @@
    <tile x="0" y="0" name="trashcontainers_01_016"/>
   </entry>
  </furniture>
- <furniture>
+ <furniture layer="FloorFurniture">
   <entry orient="W">
-   <tile x="0" y="0" name="floors_rugs_01_008"/>
+   <tile x="0" y="0" name="floors_rugs_01_014"/>
    <tile x="0" y="1" name="floors_rugs_01_010"/>
-   <tile x="0" y="2" name="floors_rugs_01_014"/>
-   <tile x="1" y="0" name="floors_rugs_01_009"/>
+   <tile x="0" y="2" name="floors_rugs_01_008"/>
+   <tile x="1" y="0" name="floors_rugs_01_015"/>
    <tile x="1" y="1" name="floors_rugs_01_011"/>
-   <tile x="1" y="2" name="floors_rugs_01_015"/>
+   <tile x="1" y="2" name="floors_rugs_01_009"/>
   </entry>
   <entry orient="N">
-   <tile x="0" y="0" name="floors_rugs_01_008"/>
-   <tile x="0" y="1" name="floors_rugs_01_014"/>
+   <tile x="0" y="0" name="floors_rugs_01_014"/>
+   <tile x="0" y="1" name="floors_rugs_01_008"/>
    <tile x="1" y="0" name="floors_rugs_01_013"/>
    <tile x="1" y="1" name="floors_rugs_01_012"/>
-   <tile x="2" y="0" name="floors_rugs_01_009"/>
-   <tile x="2" y="1" name="floors_rugs_01_015"/>
+   <tile x="2" y="0" name="floors_rugs_01_015"/>
+   <tile x="2" y="1" name="floors_rugs_01_009"/>
   </entry>
  </furniture>
  <furniture>
@@ -1115,6 +1115,24 @@
  </furniture>
  <furniture>
   <entry orient="W">
+   <tile x="0" y="0" name="floors_rugs_01_008"/>
+   <tile x="0" y="1" name="floors_rugs_01_010"/>
+   <tile x="0" y="2" name="floors_rugs_01_014"/>
+   <tile x="1" y="0" name="floors_rugs_01_009"/>
+   <tile x="1" y="1" name="floors_rugs_01_011"/>
+   <tile x="1" y="2" name="floors_rugs_01_015"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="floors_rugs_01_008"/>
+   <tile x="0" y="1" name="floors_rugs_01_014"/>
+   <tile x="1" y="0" name="floors_rugs_01_013"/>
+   <tile x="1" y="1" name="floors_rugs_01_012"/>
+   <tile x="2" y="0" name="floors_rugs_01_009"/>
+   <tile x="2" y="1" name="floors_rugs_01_015"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
    <tile x="0" y="0" name="trashcontainers_01_024"/>
   </entry>
   <entry orient="N">
@@ -1125,7 +1143,7 @@
   <tile tile="roofs_02_000"/>
  </user_tiles>
  <used_tiles>8 15 13 16 11 17 18 9 19 14 10 12 5 3 7 6 4 27 1 2 20 22 21 23 24 25 28</used_tiles>
- <used_furniture>25 26 27 28 3 29 30 31 32 13 33 34 11 35 36 37 38 39 40 41 0 42 7 17 23 20 43 44 45 46 47 48 49 50 15 1 2 51 52 53 54 55 56 57 58 59 60 61 62 4 5 6 16 22 63 8 9 19 10 12 14 18 21 64 24</used_furniture>
+ <used_furniture>25 26 27 28 3 29 30 31 32 13 33 34 11 35 36 37 38 39 40 41 0 42 7 17 23 20 43 44 45 46 47 48 49 50 15 1 2 51 52 53 54 55 56 57 58 59 60 61 62 4 5 6 16 22 63 8 9 19 10 12 14 64 21 65 24 18</used_furniture>
  <room Name="Living Room" InternalName="livingroom" Color="255 0 0" InteriorWall="15" InteriorWallTrim="0" Floor="13" GrimeFloor="0" GrimeWall="0"/>
  <room Name="Dining Room" InternalName="diningroom" Color="255 0 128" InteriorWall="15" InteriorWallTrim="0" Floor="13" GrimeFloor="0" GrimeWall="0"/>
  <room Name="Bathroom" InternalName="bathroom" Color="255 128 0" InteriorWall="16" InteriorWallTrim="0" Floor="11" GrimeFloor="0" GrimeWall="0"/>
@@ -1162,7 +1180,7 @@
   <object type="furniture" FurnitureTiles="16" orient="E" x="2" y="1"/>
   <object type="furniture" FurnitureTiles="16" orient="S" x="1" y="1"/>
   <object type="furniture" FurnitureTiles="17" orient="S" x="2" y="1"/>
-  <object type="furniture" FurnitureTiles="18" orient="W" x="1" y="3"/>
+  <object type="furniture" FurnitureTiles="18" orient="E" x="1" y="3"/>
   <object type="furniture" FurnitureTiles="19" orient="S" x="1" y="3"/>
   <object type="furniture" FurnitureTiles="20" orient="W" x="6" y="7"/>
   <object type="furniture" FurnitureTiles="20" orient="E" x="0" y="2"/>

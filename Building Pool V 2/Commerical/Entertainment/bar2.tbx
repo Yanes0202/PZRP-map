@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<building version="2" width="13" height="20" ExteriorWall="12" ExteriorWallTrim="8" Door="6" DoorFrame="0" Window="27" Curtains="0" Shutters="0" Stairs="26" RoofCap="23" RoofSlope="24" RoofTop="25" GrimeWall="18">
+<building version="3" width="13" height="20" ExteriorWall="12" ExteriorWallTrim="8" Door="6" DoorFrame="0" Window="27" Curtains="0" Shutters="0" Stairs="26" RoofCap="23" RoofSlope="24" RoofTop="25" GrimeWall="18">
+ <properties>
+  <property name="Legend" value="RestaurantsAndEntertainment"/>
+ </properties>
  <tile_entry category="curtains">
   <tile enum="West" tile="fixtures_windows_curtains_02_004"/>
   <tile enum="East" tile="fixtures_windows_curtains_02_005"/>
@@ -126,6 +129,14 @@
   <tile enum="NorthWindow" tile="overlay_grime_wall_01_009"/>
   <tile enum="WestDoor" tile="overlay_grime_wall_01_010"/>
   <tile enum="NorthDoor" tile="overlay_grime_wall_01_011"/>
+  <tile enum="WestTrim" tile=""/>
+  <tile enum="NorthTrim" tile=""/>
+  <tile enum="NorthWestTrim" tile=""/>
+  <tile enum="SouthEastTrim" tile=""/>
+  <tile enum="WestDoubleLeft" tile=""/>
+  <tile enum="WestDoubleRight" tile=""/>
+  <tile enum="NorthDoubleLeft" tile=""/>
+  <tile enum="NorthDoubleRight" tile=""/>
  </tile_entry>
  <tile_entry category="interior_walls">
   <tile enum="West" tile="location_restaurant_bar_01_017"/>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<building version="2" width="12" height="12" ExteriorWall="12" ExteriorWallTrim="0" Door="7" DoorFrame="5" Window="63" Curtains="1" Shutters="59" Stairs="60" RoofCap="54" RoofSlope="57" RoofTop="0" GrimeWall="0">
+<building version="3" width="12" height="12" ExteriorWall="12" ExteriorWallTrim="0" Door="7" DoorFrame="5" Window="63" Curtains="1" Shutters="59" Stairs="60" RoofCap="54" RoofSlope="57" RoofTop="0" GrimeWall="0">
+ <properties>
+  <property name="Legend" value="Residential"/>
+ </properties>
  <tile_entry category="curtains">
   <tile enum="West" tile="fixtures_windows_curtains_01_052"/>
   <tile enum="East" tile="fixtures_windows_curtains_01_053"/>
@@ -1527,16 +1530,6 @@
    <tile x="0" y="0" name="furniture_seating_indoor_03_007"/>
   </entry>
  </furniture>
- <furniture>
-  <entry orient="W">
-   <tile x="0" y="0" name="furniture_tables_high_01_003"/>
-   <tile x="0" y="1" name="furniture_tables_high_01_002"/>
-  </entry>
-  <entry orient="N">
-   <tile x="0" y="0" name="furniture_tables_high_01_000"/>
-   <tile x="1" y="0" name="furniture_tables_high_01_001"/>
-  </entry>
- </furniture>
  <user_tiles>
   <tile tile="floors_interior_tilesandwood_01_042"/>
   <tile tile="roofs_01_003"/>
@@ -1559,7 +1552,7 @@
   <tile tile="walls_exterior_roofs_05_037"/>
  </user_tiles>
  <used_tiles>10 44 25 45 20 46 47 13 48 53 55 54 56 61 2 60 6 4 31 33 9 34 39 38 37 36 32 41 62 1 58 3 21 35 28 8 52 29 15 51 16 43 22 50 30 40 24 19 18 17 49 14 23 27 42 26 12 11 63 59 57 7 5</used_tiles>
- <used_furniture>44 29 22 30 45 46 0 13 14 15 1 2 3 47 48 23 49 25 50 51 24 28 4 52 53 5 54 55 56 9 57 58 59 60 26 27 61 62 6 7 8 63 64 65 66 10 37 38 67 39 40 41 42 43 31 21 11 32 33 34 35 36 68 69 12 16 17 18 19 70 20</used_furniture>
+ <used_furniture>44 29 22 30 45 46 0 13 14 15 1 2 3 47 48 23 49 25 50 51 24 28 4 52 53 5 54 55 56 9 57 58 59 60 26 27 61 62 6 7 8 63 64 65 66 10 37 38 67 39 40 41 42 43 31 21 11 32 33 34 35 36 68 69 12 16 17 18 19 63 20</used_furniture>
  <room Name="Living Room" InternalName="livingroom" Color="255 0 0" InteriorWall="50" InteriorWallTrim="28" Floor="18" GrimeFloor="0" GrimeWall="0"/>
  <room Name="Attic" InternalName="livingroom" Color="85 0 0" InteriorWall="40" InteriorWallTrim="0" Floor="24" GrimeFloor="0" GrimeWall="0"/>
  <room Name="Laundry" InternalName="laundry" Color="200 200 200" InteriorWall="43" InteriorWallTrim="0" Floor="21" GrimeFloor="0" GrimeWall="0"/>

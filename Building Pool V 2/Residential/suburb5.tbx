@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<building version="2" width="12" height="12" ExteriorWall="5" ExteriorWallTrim="0" Door="3" DoorFrame="2" Window="33" Curtains="1" Shutters="31" Stairs="32" RoofCap="27" RoofSlope="28" RoofTop="30" GrimeWall="0">
+<building version="3" width="12" height="12" ExteriorWall="5" ExteriorWallTrim="0" Door="3" DoorFrame="2" Window="33" Curtains="1" Shutters="31" Stairs="32" RoofCap="27" RoofSlope="28" RoofTop="30" GrimeWall="0">
+ <properties>
+  <property name="Legend" value="Residential"/>
+ </properties>
  <tile_entry category="curtains">
   <tile enum="West" tile="fixtures_windows_curtains_01_068"/>
   <tile enum="East" tile="fixtures_windows_curtains_01_069"/>
@@ -79,6 +82,14 @@
   <tile enum="NorthWindow" tile="overlay_grime_wall_01_009"/>
   <tile enum="WestDoor" tile="overlay_grime_wall_01_010"/>
   <tile enum="NorthDoor" tile="overlay_grime_wall_01_011"/>
+  <tile enum="WestTrim" tile=""/>
+  <tile enum="NorthTrim" tile=""/>
+  <tile enum="NorthWestTrim" tile=""/>
+  <tile enum="SouthEastTrim" tile=""/>
+  <tile enum="WestDoubleLeft" tile=""/>
+  <tile enum="WestDoubleRight" tile=""/>
+  <tile enum="NorthDoubleLeft" tile=""/>
+  <tile enum="NorthDoubleRight" tile=""/>
  </tile_entry>
  <tile_entry category="interior_wall_trim">
   <tile enum="West" tile="walls_interior_detailing_01_036"/>
@@ -641,16 +652,6 @@
  </furniture>
  <furniture>
   <entry orient="W">
-   <tile x="0" y="0" name="furniture_tables_high_01_011"/>
-   <tile x="0" y="1" name="furniture_tables_high_01_010"/>
-  </entry>
-  <entry orient="N">
-   <tile x="0" y="0" name="furniture_tables_high_01_008"/>
-   <tile x="1" y="0" name="furniture_tables_high_01_009"/>
-  </entry>
- </furniture>
- <furniture>
-  <entry orient="W">
    <tile x="0" y="0" name="furniture_seating_indoor_01_049"/>
   </entry>
   <entry orient="N">
@@ -775,16 +776,6 @@
  </furniture>
  <furniture>
   <entry orient="W">
-   <tile x="0" y="0" name="furniture_tables_low_01_001"/>
-   <tile x="0" y="1" name="furniture_tables_low_01_000"/>
-  </entry>
-  <entry orient="N">
-   <tile x="0" y="0" name="furniture_tables_low_01_014"/>
-   <tile x="1" y="0" name="furniture_tables_low_01_015"/>
-  </entry>
- </furniture>
- <furniture>
-  <entry orient="W">
    <tile x="0" y="0" name="appliances_television_01_005"/>
   </entry>
   <entry orient="N">
@@ -816,7 +807,7 @@
   <tile tile="roofs_accents_01_017"/>
  </user_tiles>
  <used_tiles>5 20 12 21 10 22 23 8 24 26 28 30 29 27 4 17 18 6 14 15 33 1 31 32 25 16 13 7 9 3 2 19 11</used_tiles>
- <used_furniture>0 1 25 11 26 12 27 28 13 14 15 17 16 18 29 19 20 30 21 22 31 2 4 3 5 32 33 9 34 35 6 7 8 10 23 24</used_furniture>
+ <used_furniture>0 1 24 11 25 12 26 27 13 14 15 17 16 18 28 19 20 29 21 22 30 2 4 3 5 31 32 9 10 33 6 7 8 10 8 23</used_furniture>
  <room Name="Living Room" InternalName="livingroom" Color="255 0 0" InteriorWall="25" InteriorWallTrim="16" Floor="13" GrimeFloor="0" GrimeWall="0"/>
  <room Name="Dining Room" InternalName="diningroom" Color="255 0 128" InteriorWall="20" InteriorWallTrim="0" Floor="12" GrimeFloor="0" GrimeWall="0"/>
  <room Name="Bathroom" InternalName="bathroom" Color="255 128 0" InteriorWall="21" InteriorWallTrim="0" Floor="10" GrimeFloor="0" GrimeWall="0"/>
@@ -921,8 +912,8 @@
   <object type="furniture" FurnitureTiles="21" orient="W" x="6" y="7"/>
   <object type="furniture" FurnitureTiles="22" orient="W" x="7" y="5"/>
   <object type="wall" length="2" InteriorTile="19" ExteriorTrim="0" InteriorTrim="16" x="4" y="5" dir="N" Tile="4"/>
-  <object type="furniture" FurnitureTiles="23" orient="W" x="7" y="4"/>
-  <object type="furniture" FurnitureTiles="24" orient="E" x="8" y="5"/>
+  <object type="furniture" FurnitureTiles="8" orient="W" x="7" y="4"/>
+  <object type="furniture" FurnitureTiles="23" orient="E" x="8" y="5"/>
   <rooms>
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
