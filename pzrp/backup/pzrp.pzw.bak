@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<world version="1.0" width="2" height="1">
+ <BMPToTMX>
+  <tmxexportdir path="."/>
+  <rulesfile path=""/>
+  <blendsfile path=""/>
+  <mapbasefile path=""/>
+  <assign-maps-to-world checked="true"/>
+  <warn-unknown-colors checked="true"/>
+  <compress checked="true"/>
+  <copy-pixels checked="true"/>
+  <update-existing checked="false"/>
+ </BMPToTMX>
+ <TMXToBMP>
+  <mainImage generate="true"/>
+  <vegetationImage generate="true"/>
+  <buildingsImage path="" generate="false"/>
+ </TMXToBMP>
+ <GenerateLots>
+  <exportdir path="../lua"/>
+  <ZombieSpawnMap path="../Images/4.1_zombie_spawn.bmp"/>
+  <TileDefFolder path="../../../Tiles"/>
+  <worldOrigin origin="0,0"/>
+ </GenerateLots>
+ <LuaSettings>
+  <spawnPointsFile path="../lua/spawnpoints.lua"/>
+  <worldObjectsFile path="../lua/objects.lua"/>
+ </LuaSettings>
+ <bmp path="../Images/4.1.png" x="0" y="0" width="1" height="1"/>
+ <propertyenum name="Direction" choices="N,S,W,E" multi="false"/>
+ <propertyenum name="Pose" choices="pose01,pose02,pose03" multi="false"/>
+ <propertyenum name="Skin" choices="White,Black" multi="false"/>
+ <propertyenum name="RoomTone" choices="Generic,Barn,Mall,Warehouse,Prison,Church,Office,Factory" multi="false"/>
+ <propertyenum name="Professions" choices="all,unemployed,policeofficer,constructionworker,securityguard,parkranger,fireofficer" multi="true"/>
+ <propertydef name="Direction" default="N" enum="Direction"/>
+ <propertydef name="FaceDirection" default="true"/>
+ <propertydef name="WaterDirection" default="0.0"/>
+ <propertydef name="WaterSpeed" default="0.0"/>
+ <propertydef name="WaterGround" default="false"/>
+ <propertydef name="WaterShore" default="true"/>
+ <propertydef name="Female" default="true"/>
+ <propertydef name="Outfit" default=""/>
+ <propertydef name="Pose" default="pose01" enum="Pose"/>
+ <propertydef name="Script" default=""/>
+ <propertydef name="Skin" default="White" enum="Skin"/>
+ <propertydef name="RoomTone" default="Generic" enum="RoomTone"/>
+ <propertydef name="EntireBuilding" default="false"/>
+ <propertydef name="Professions" default="all" enum="Professions">
+  <description>Comma-separated list of professions that may spawn here.  Use &quot;all&quot; to allow any profession to spawn here.</description>
+ </propertydef>
+ <template name="ParkingStallN">
+  <property name="Direction" value="N"/>
+ </template>
+ <template name="ParkingStallS">
+  <property name="Direction" value="S"/>
+ </template>
+ <template name="ParkingStallW">
+  <property name="Direction" value="W"/>
+ </template>
+ <template name="ParkingStallE">
+  <property name="Direction" value="E"/>
+ </template>
+ <template name="WaterFlowN">
+  <property name="WaterDirection" value="0"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowS">
+  <property name="WaterDirection" value="180"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowE">
+  <property name="WaterDirection" value="90"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowW">
+  <property name="WaterDirection" value="270"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterZone">
+  <property name="WaterGround" value="false"/>
+  <property name="WaterShore" value="true"/>
+ </template>
+ <template name="RoomTone">
+  <property name="RoomTone" value="Generic"/>
+  <property name="EntireBuilding" value="false"/>
+ </template>
+ <template name="SpawnPoint">
+  <description>This template holds the default set of properties for all spawn points in the world.</description>
+  <property name="Professions" value="all"/>
+ </template>
+ <objecttype name="TownZone"/>
+ <objecttype name="Forest"/>
+ <objecttype name="DeepForest"/>
+ <objecttype name="Nav"/>
+ <objecttype name="Vegitation"/>
+ <objecttype name="TrailerPark"/>
+ <objecttype name="Farm"/>
+ <objecttype name="ParkingStall"/>
+ <objecttype name="FarmLand"/>
+ <objecttype name="WaterFlow"/>
+ <objecttype name="WaterZone"/>
+ <objecttype name="Mannequin"/>
+ <objecttype name="RoomTone"/>
+ <objecttype name="SpawnPoint"/>
+ <objectgroup name="ParkingStall" color="#ff007f" defaulttype="ParkingStall"/>
+ <objectgroup name="TownZone" color="#aa0000" defaulttype="TownZone"/>
+ <objectgroup name="Forest" color="#00aa00" defaulttype="Forest"/>
+ <objectgroup name="Nav" color="#55aaff" defaulttype="Nav"/>
+ <objectgroup name="DeepForest" color="#003500" defaulttype="DeepForest"/>
+ <objectgroup name="Vegitation" color="#b3b300" defaulttype="Vegitation"/>
+ <objectgroup name="TrailerPark" color="#f50000" defaulttype="TrailerPark"/>
+ <objectgroup name="Farm" color="#55ff7f" defaulttype="Farm"/>
+ <objectgroup name="FarmLand" color="#bcff7d" defaulttype="FarmLand"/>
+ <objectgroup name="WaterFlow" color="#0000ff" defaulttype="WaterFlow"/>
+ <objectgroup name="WaterZone" color="#0000ff" defaulttype="WaterZone"/>
+ <objectgroup name="Mannequin" color="#0000ff" defaulttype="Mannequin"/>
+ <objectgroup name="RoomTone" color="#0000ff" defaulttype="RoomTone"/>
+ <cell x="0" y="0" map="../../../../../../../WorldEd/PZRP/world/4.1_4_1.tmx">
+  <lot x="196" y="1" level="0" width="27" height="27" map="../../../../../../../TileZed/Building Pool V 2/Industry/Warehouse/warehouse2.tbx"/>
+  <lot x="202" y="45" level="0" width="21" height="21" map="../../../../../../../TileZed/Building Pool V 2/Industry/Warehouse/Phex-garages.tbx"/>
+  <lot x="232" y="75" level="0" width="12" height="24" map="../../../../../../../TileZed/Building Pool V 2/Industry/Warehouse/warehouse3.tbx"/>
+  <lot x="256" y="62" level="0" width="10" height="7" map="../../../../../../../TileZed/Building Pool V 2/Industry/Warehouse/garage1.tbx"/>
+  <lot x="250" y="76" level="0" width="21" height="21" map="../../../../../../../TileZed/Building Pool V 2/Industry/Warehouse/Abandoned Buildings.tbx"/>
+  <lot x="273" y="61" level="0" width="5" height="8" map="../../../../../../../TileZed/Building Pool V 2/Industry/Construction/construction_trailer1.tbx"/>
+  <lot x="250" y="32" level="0" width="17" height="15" map="../../../../../../../TileZed/Building Pool V 2/Industry/Construction/construction1.tbx"/>
+  <lot x="271" y="8" level="0" width="19" height="18" map="../../../../../../../TileZed/Building Pool V 2/Industry/Construction/construction2.tbx"/>
+  <lot x="234" y="46" level="0" width="10" height="4" map="../../../../../../../TileZed/Building Pool V 2/Industry/Misc/container1.tbx"/>
+  <lot x="234" y="34" level="0" width="10" height="4" map="../../../../../../../TileZed/Building Pool V 2/Industry/Misc/container2.tbx"/>
+  <lot x="234" y="22" level="0" width="10" height="4" map="../../../../../../../TileZed/Building Pool V 2/Industry/Misc/container3.tbx"/>
+  <lot x="31" y="36" level="0" width="3" height="4" map="../../../../../../../TileZed/Building Pool V 2/CitySpaces/toilet1.tbx"/>
+  <lot x="273" y="75" level="0" width="10" height="6" map="../../../../../../../TileZed/Building Pool V 2/CitySpaces/Sato Dumpster section1.tbx"/>
+  <lot x="73" y="7" level="0" width="21" height="16" map="../../../../../../../TileZed/Building Pool V 2/Public Service/Religion/Lost Church.tbx"/>
+  <lot x="235" y="57" level="0" width="10" height="12" map="../../../../../../../TileZed/Building Pool V 2/Commerical/Shop/travel1.tbx"/>
+  <lot x="39" y="39" level="0" width="26" height="13" map="../../../../../../../TileZed/Building Pool V 2/Commerical/Apartments/motel1.tbx"/>
+  <lot x="32" y="17" level="0" width="14" height="6" map="../../../../../../../TileZed/Building Pool V 2/Residential/trailer1c.tbx"/>
+  <lot x="32" y="3" level="0" width="14" height="6" map="../../../../../../../TileZed/Building Pool V 2/Residential/trailer1a.tbx"/>
+  <lot x="17" y="23" level="0" width="8" height="13" map="../../../../../../../TileZed/Building Pool V 2/Residential/cabin1.tbx"/>
+  <lot x="227" y="0" level="0" width="19" height="19" map="../../../../../../../TileZed/Building Pool V 2/Industry/Warehouse/storage1.tbx"/>
+  <lot x="79" y="121" level="0" width="6" height="6" map="../../../../../../../TileZed/Building Pool V 2/Special/shacky2.tbx"/>
+  <object type="SpawnPoint" x="33" y="5" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object group="WaterZone" type="WaterZone" x="64" y="110" level="0" width="10" height="4"/>
+  <object group="WaterZone" type="WaterZone" x="67" y="109" level="0" width="6" height="1"/>
+  <object group="WaterZone" type="WaterZone" x="66" y="109" level="0" width="2" height="1"/>
+  <object group="WaterZone" type="WaterZone" x="69" y="114" level="0" width="5" height="1"/>
+  <object group="WaterZone" type="WaterZone" x="71" y="114" level="0" width="5" height="3"/>
+  <object group="WaterZone" type="WaterZone" x="72" y="109" level="0" width="5" height="7"/>
+  <object group="DeepForest" type="DeepForest" x="0" y="199" level="0" width="22" height="102"/>
+  <object group="DeepForest" type="DeepForest" x="17" y="259" level="0" width="282" height="41"/>
+  <object group="DeepForest" type="DeepForest" x="285" y="195" level="0" width="15" height="66"/>
+  <object group="DeepForest" type="DeepForest" x="285" y="63" level="0" width="15" height="124"/>
+  <object group="DeepForest" type="DeepForest" x="292" y="0" level="0" width="8" height="63"/>
+  <object group="DeepForest" type="DeepForest" x="166" y="44" level="0" width="27" height="29"/>
+  <object group="DeepForest" type="DeepForest" x="100" y="14" level="0" width="32" height="60"/>
+  <object group="DeepForest" type="DeepForest" x="14" y="76" level="0" width="87" height="59"/>
+  <object group="DeepForest" type="DeepForest" x="0" y="23" level="0" width="7" height="64"/>
+  <object group="Forest" type="Forest" x="22" y="214" level="0" width="263" height="45"/>
+  <object group="Forest" type="Forest" x="272" y="84" level="0" width="13" height="80"/>
+  <object group="Forest" type="Forest" x="250" y="141" level="0" width="1" height="1"/>
+  <object group="Forest" type="Forest" x="204" y="102" level="0" width="69" height="53"/>
+  <object group="Forest" type="Forest" x="158" y="73" level="0" width="63" height="29"/>
+  <object group="Forest" type="Forest" x="175" y="101" level="0" width="29" height="28"/>
+  <object group="Forest" type="Forest" x="145" y="1" level="0" width="47" height="43"/>
+  <object group="TownZone" type="TownZone" x="192" y="-1" level="0" width="31" height="73"/>
+  <object group="TownZone" type="TownZone" x="222" y="-1" level="0" width="63" height="85"/>
+  <object group="TownZone" type="TownZone" x="221" y="72" level="0" width="51" height="30"/>
+  <object group="TownZone" type="TownZone" x="193" y="71" level="0" width="28" height="2"/>
+  <object group="TownZone" type="TownZone" x="282" y="-1" level="0" width="10" height="64"/>
+  <object group="Forest" type="Forest" x="100" y="74" level="0" width="39" height="70"/>
+  <object group="Forest" type="Forest" x="7" y="39" level="0" width="15" height="37"/>
+  <object group="Forest" type="Forest" x="7" y="76" level="0" width="7" height="100"/>
+  <object group="Forest" type="Forest" x="-1" y="87" level="0" width="15" height="101"/>
+  <object group="Forest" type="Forest" x="13" y="135" level="0" width="61" height="25"/>
+  <object group="Forest" type="Forest" x="14" y="159" level="0" width="25" height="19"/>
+  <object group="Forest" type="Forest" x="-1" y="-1" level="0" width="14" height="24"/>
+  <object group="Forest" type="Forest" x="7" y="23" level="0" width="7" height="16"/>
+  <object group="TownZone" type="TownZone" x="22" y="0" level="0" width="78" height="76"/>
+  <object group="TownZone" type="TownZone" x="13" y="-1" level="0" width="9" height="24"/>
+  <object group="TownZone" type="TownZone" x="14" y="23" level="0" width="8" height="16"/>
+  <object group="Forest" type="Forest" x="100" y="0" level="0" width="32" height="14"/>
+  <object group="Forest" type="Forest" x="83" y="185" level="0" width="141" height="29"/>
+  <object group="WaterFlow" type="WaterFlow" x="178" y="57" level="0" width="6" height="5"/>
+  <object group="WaterFlow" type="WaterFlow" x="275" y="105" level="0" width="3" height="5"/>
+  <object name="trafficjams" group="ParkingStall" type="ParkingStall" x="134" y="1" level="0" width="9" height="47"/>
+  <object name="trafficjams" group="ParkingStall" type="ParkingStall" x="137" y="47" level="0" width="8" height="7"/>
+  <object name="junkyard" group="ParkingStall" type="ParkingStall" x="249" y="1" level="0" width="18" height="21"/>
+  <object name="sport" group="ParkingStall" type="ParkingStall" x="257" y="63" level="0" width="5" height="3"/>
+  <object group="Nav" type="Nav" x="132" y="0" level="0" width="13" height="48"/>
+  <object group="Nav" type="Nav" x="135" y="47" level="0" width="10" height="7"/>
+  <object group="Nav" type="Nav" x="137" y="54" level="0" width="10" height="11"/>
+  <object group="Nav" type="Nav" x="140" y="65" level="0" width="8" height="13"/>
+  <object group="Nav" type="Nav" x="142" y="78" level="0" width="9" height="8"/>
+  <object group="Nav" type="Nav" x="143" y="86" level="0" width="12" height="12"/>
+  <object group="Nav" type="Nav" x="147" y="98" level="0" width="9" height="5"/>
+  <object group="Nav" type="Nav" x="149" y="103" level="0" width="9" height="5"/>
+  <object group="Nav" type="Nav" x="151" y="108" level="0" width="9" height="7"/>
+  <object group="Nav" type="Nav" x="153" y="115" level="0" width="10" height="5"/>
+  <object group="Nav" type="Nav" x="156" y="120" level="0" width="10" height="5"/>
+  <object group="Nav" type="Nav" x="158" y="125" level="0" width="11" height="4"/>
+  <object group="Nav" type="Nav" x="162" y="129" level="0" width="11" height="4"/>
+  <object group="Nav" type="Nav" x="165" y="133" level="0" width="11" height="3"/>
+  <object group="Nav" type="Nav" x="168" y="136" level="0" width="10" height="3"/>
+  <object group="Nav" type="Nav" x="171" y="139" level="0" width="13" height="4"/>
+  <object group="Nav" type="Nav" x="177" y="137" level="0" width="3" height="3"/>
+  <object group="Nav" type="Nav" x="175" y="143" level="0" width="16" height="5"/>
+  <object group="Nav" type="Nav" x="182" y="148" level="0" width="14" height="5"/>
+  <object group="Nav" type="Nav" x="187" y="153" level="0" width="17" height="8"/>
+  <object group="Nav" type="Nav" x="100" y="158" level="0" width="93" height="7"/>
+  <object group="Nav" type="Nav" x="93" y="160" level="0" width="13" height="6"/>
+  <object group="Nav" type="Nav" x="78" y="166" level="0" width="25" height="4"/>
+  <object group="Nav" type="Nav" x="84" y="162" level="0" width="11" height="6"/>
+  <object group="Nav" type="Nav" x="69" y="170" level="0" width="22" height="4"/>
+  <object group="Nav" type="Nav" x="68" y="167" level="0" width="12" height="9"/>
+  <object group="Nav" type="Nav" x="60" y="172" level="0" width="13" height="5"/>
+  <object group="Nav" type="Nav" x="50" y="177" level="0" width="21" height="4"/>
+  <object group="Nav" type="Nav" x="54" y="174" level="0" width="8" height="3"/>
+  <object group="Nav" type="Nav" x="42" y="181" level="0" width="16" height="3"/>
+  <object group="Nav" type="Nav" x="45" y="178" level="0" width="7" height="3"/>
+  <object group="Nav" type="Nav" x="-1" y="191" level="0" width="27" height="8"/>
+  <object group="Nav" type="Nav" x="25" y="191" level="0" width="8" height="5"/>
+  <object group="Nav" type="Nav" x="26" y="188" level="0" width="12" height="6"/>
+  <object group="Nav" type="Nav" x="35" y="184" level="0" width="7" height="8"/>
+  <object group="Nav" type="Nav" x="30" y="186" level="0" width="7" height="3"/>
+  <object group="Nav" type="Nav" x="38" y="182" level="0" width="13" height="7"/>
+  <object group="Nav" type="Nav" x="268" y="187" level="0" width="32" height="8"/>
+  <object group="Nav" type="Nav" x="253" y="186" level="0" width="16" height="7"/>
+  <object group="Nav" type="Nav" x="240" y="185" level="0" width="17" height="6"/>
+  <object group="Nav" type="Nav" x="236" y="182" level="0" width="15" height="7"/>
+  <object group="Nav" type="Nav" x="231" y="179" level="0" width="6" height="10"/>
+  <object group="Nav" type="Nav" x="226" y="176" level="0" width="5" height="10"/>
+  <object group="Nav" type="Nav" x="223" y="173" level="0" width="4" height="10"/>
+  <object group="Nav" type="Nav" x="220" y="170" level="0" width="3" height="11"/>
+  <object group="Nav" type="Nav" x="216" y="168" level="0" width="5" height="11"/>
+  <object group="Nav" type="Nav" x="213" y="166" level="0" width="4" height="10"/>
+  <object group="Nav" type="Nav" x="210" y="163" level="0" width="5" height="11"/>
+  <object group="Nav" type="Nav" x="206" y="160" level="0" width="5" height="11"/>
+  <object group="Nav" type="Nav" x="202" y="159" level="0" width="5" height="9"/>
+  <object group="Nav" type="Nav" x="192" y="160" level="0" width="11" height="7"/>
+  <object group="Vegitation" type="Vegitation" x="145" y="44" level="0" width="21" height="29"/>
+  <object group="Vegitation" type="Vegitation" x="148" y="73" level="0" width="10" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="151" y="78" level="0" width="7" height="8"/>
+  <object group="Vegitation" type="Vegitation" x="155" y="86" level="0" width="3" height="12"/>
+  <object group="Vegitation" type="Vegitation" x="156" y="98" level="0" width="2" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="158" y="102" level="0" width="17" height="6"/>
+  <object group="Vegitation" type="Vegitation" x="160" y="108" level="0" width="15" height="7"/>
+  <object group="Vegitation" type="Vegitation" x="163" y="115" level="0" width="12" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="166" y="120" level="0" width="9" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="169" y="125" level="0" width="6" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="173" y="129" level="0" width="31" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="176" y="133" level="0" width="28" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="178" y="136" level="0" width="26" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="180" y="137" level="0" width="24" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="184" y="139" level="0" width="20" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="191" y="143" level="0" width="13" height="6"/>
+  <object group="Vegitation" type="Vegitation" x="196" y="149" level="0" width="8" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="132" y="48" level="0" width="3" height="26"/>
+  <object group="Vegitation" type="Vegitation" x="135" y="54" level="0" width="2" height="20"/>
+  <object group="Vegitation" type="Vegitation" x="137" y="65" level="0" width="3" height="9"/>
+  <object group="Vegitation" type="Vegitation" x="139" y="74" level="0" width="1" height="70"/>
+  <object group="Vegitation" type="Vegitation" x="140" y="98" level="0" width="7" height="46"/>
+  <object group="Vegitation" type="Vegitation" x="147" y="103" level="0" width="2" height="41"/>
+  <object group="Vegitation" type="Vegitation" x="140" y="78" level="0" width="2" height="20"/>
+  <object group="Vegitation" type="Vegitation" x="142" y="86" level="0" width="1" height="12"/>
+  <object group="Vegitation" type="Vegitation" x="74" y="153" level="0" width="113" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="74" y="135" level="0" width="26" height="18"/>
+  <object group="Vegitation" type="Vegitation" x="100" y="144" level="0" width="75" height="9"/>
+  <object group="Vegitation" type="Vegitation" x="149" y="143" level="0" width="26" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="149" y="108" level="0" width="2" height="35"/>
+  <object group="Vegitation" type="Vegitation" x="151" y="115" level="0" width="2" height="28"/>
+  <object group="Vegitation" type="Vegitation" x="153" y="139" level="0" width="18" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="153" y="120" level="0" width="3" height="19"/>
+  <object group="Vegitation" type="Vegitation" x="156" y="125" level="0" width="2" height="14"/>
+  <object group="Vegitation" type="Vegitation" x="158" y="129" level="0" width="4" height="10"/>
+  <object group="Vegitation" type="Vegitation" x="162" y="133" level="0" width="3" height="6"/>
+  <object group="Vegitation" type="Vegitation" x="165" y="136" level="0" width="3" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="175" y="148" level="0" width="7" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="14" y="178" level="0" width="16" height="10"/>
+  <object group="Vegitation" type="Vegitation" x="-1" y="188" level="0" width="27" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="30" y="178" level="0" width="8" height="6"/>
+  <object group="Vegitation" type="Vegitation" x="30" y="184" level="0" width="5" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="39" y="160" level="0" width="29" height="12"/>
+  <object group="Vegitation" type="Vegitation" x="39" y="172" level="0" width="21" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="39" y="174" level="0" width="15" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="39" y="177" level="0" width="11" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="38" y="178" level="0" width="7" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="38" y="181" level="0" width="4" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="68" y="160" level="0" width="16" height="6"/>
+  <object group="Vegitation" type="Vegitation" x="68" y="166" level="0" width="10" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="74" y="158" level="0" width="26" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="84" y="160" level="0" width="9" height="2"/>
+  <object x="171" y="160" level="0" width="1" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="22" y="199" level="0" width="61" height="15"/>
+  <object group="Vegitation" type="Vegitation" x="26" y="196" level="0" width="57" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="33" y="194" level="0" width="50" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="38" y="192" level="0" width="45" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="42" y="189" level="0" width="41" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="51" y="184" level="0" width="32" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="58" y="181" level="0" width="165" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="71" y="177" level="0" width="145" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="216" y="179" level="0" width="4" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="106" y="165" level="0" width="86" height="12"/>
+  <object group="Vegitation" type="Vegitation" x="103" y="166" level="0" width="3" height="11"/>
+  <object group="Vegitation" type="Vegitation" x="73" y="176" level="0" width="30" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="80" y="174" level="0" width="23" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="91" y="170" level="0" width="12" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="192" y="167" level="0" width="10" height="10"/>
+  <object group="Vegitation" type="Vegitation" x="202" y="168" level="0" width="4" height="9"/>
+  <object group="Vegitation" type="Vegitation" x="206" y="171" level="0" width="4" height="6"/>
+  <object group="Vegitation" type="Vegitation" x="210" y="174" level="0" width="3" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="213" y="176" level="0" width="3" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="223" y="183" level="0" width="3" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="224" y="185" level="0" width="2" height="29"/>
+  <object group="Vegitation" type="Vegitation" x="226" y="186" level="0" width="5" height="28"/>
+  <object group="Vegitation" type="Vegitation" x="231" y="189" level="0" width="9" height="25"/>
+  <object group="Vegitation" type="Vegitation" x="207" y="159" level="0" width="4" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="211" y="159" level="0" width="61" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="204" y="155" level="0" width="68" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="215" y="163" level="0" width="57" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="272" y="164" level="0" width="13" height="23"/>
+  <object group="Vegitation" type="Vegitation" x="240" y="191" level="0" width="13" height="23"/>
+  <object group="Vegitation" type="Vegitation" x="253" y="193" level="0" width="15" height="21"/>
+  <object group="Vegitation" type="Vegitation" x="268" y="195" level="0" width="17" height="19"/>
+  <object group="Vegitation" type="Vegitation" x="217" y="166" level="0" width="55" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="221" y="168" level="0" width="51" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="269" y="186" level="0" width="3" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="257" y="170" level="0" width="15" height="16"/>
+  <object group="Vegitation" type="Vegitation" x="251" y="170" level="0" width="6" height="15"/>
+  <object group="Vegitation" type="Vegitation" x="237" y="170" level="0" width="14" height="12"/>
+  <object group="Vegitation" type="Vegitation" x="223" y="170" level="0" width="14" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="227" y="173" level="0" width="10" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="231" y="176" level="0" width="6" height="3"/>
+  <object name="bad" group="ParkingStall" type="ParkingStall" x="18" y="36" level="0" width="7" height="3"/>
+  <object name="bad" group="ParkingStall" type="ParkingStall" x="39" y="52" level="0" width="24" height="4"/>
+ </cell>
+ <cell x="1" y="0" map="../../../../../../../WorldEd/PZRP/world/5.1_5_1.tmx">
+  <lot x="136" y="230" level="0" width="11" height="11" map="../../../../../../../TileZed/Building Pool V 2/Residential/cabin1_zoeyflower.tbx"/>
+  <object group="Nav" type="Nav" x="0" y="189" level="0" width="14" height="6"/>
+  <object group="Nav" type="Nav" x="11" y="187" level="0" width="4" height="6"/>
+  <object group="Nav" type="Nav" x="15" y="183" level="0" width="6" height="8"/>
+  <object group="Nav" type="Nav" x="21" y="181" level="0" width="6" height="8"/>
+  <object group="Nav" type="Nav" x="19" y="182" level="0" width="3" height="1"/>
+  <object group="Nav" type="Nav" x="25" y="180" level="0" width="3" height="6"/>
+  <object group="Nav" type="Nav" x="25" y="178" level="0" width="10" height="6"/>
+  <object group="Nav" type="Nav" x="30" y="176" level="0" width="17" height="5"/>
+  <object group="Nav" type="Nav" x="39" y="173" level="0" width="22" height="6"/>
+  <object group="Nav" type="Nav" x="60" y="172" level="0" width="26" height="7"/>
+  <object group="Nav" type="Nav" x="86" y="174" level="0" width="14" height="9"/>
+  <object group="Nav" type="Nav" x="83" y="178" level="0" width="5" height="2"/>
+  <object group="Nav" type="Nav" x="99" y="176" level="0" width="15" height="9"/>
+  <object group="Nav" type="Nav" x="114" y="178" level="0" width="28" height="7"/>
+  <object group="Nav" type="Nav" x="141" y="177" level="0" width="9" height="6"/>
+  <object group="Nav" type="Nav" x="146" y="174" level="0" width="14" height="7"/>
+  <object group="Nav" type="Nav" x="154" y="171" level="0" width="13" height="6"/>
+  <object group="Nav" type="Nav" x="161" y="168" level="0" width="11" height="5"/>
+  <object group="Nav" type="Nav" x="165" y="165" level="0" width="13" height="5"/>
+  <object group="Nav" type="Nav" x="170" y="162" level="0" width="12" height="5"/>
+  <object group="Nav" type="Nav" x="170" y="139" level="0" width="7" height="16"/>
+  <object group="Nav" type="Nav" x="171" y="154" level="0" width="9" height="8"/>
+  <object group="Nav" type="Nav" x="170" y="120" level="0" width="7" height="19"/>
+  <object group="Nav" type="Nav" x="172" y="105" level="0" width="6" height="16"/>
+  <object group="Nav" type="Nav" x="174" y="98" level="0" width="6" height="13"/>
+  <object group="Nav" type="Nav" x="175" y="88" level="0" width="7" height="17"/>
+  <object group="Nav" type="Nav" x="177" y="0" level="0" width="6" height="89"/>
+  <object group="Nav" type="Nav" x="175" y="166" level="0" width="11" height="6"/>
+  <object group="Nav" type="Nav" x="178" y="172" level="0" width="9" height="6"/>
+  <object group="Nav" type="Nav" x="181" y="177" level="0" width="10" height="10"/>
+  <object group="Nav" type="Nav" x="187" y="186" level="0" width="11" height="9"/>
+  <object group="Nav" type="Nav" x="192" y="193" level="0" width="16" height="8"/>
+  <object group="Nav" type="Nav" x="196" y="191" level="0" width="6" height="3"/>
+  <object group="Nav" type="Nav" x="207" y="194" level="0" width="15" height="8"/>
+  <object group="Nav" type="Nav" x="221" y="195" level="0" width="18" height="11"/>
+  <object group="Nav" type="Nav" x="239" y="200" level="0" width="8" height="12"/>
+  <object group="Nav" type="Nav" x="247" y="206" level="0" width="8" height="13"/>
+  <object group="Nav" type="Nav" x="255" y="214" level="0" width="7" height="16"/>
+  <object group="Nav" type="Nav" x="252" y="218" level="0" width="5" height="5"/>
+  <object group="Nav" type="Nav" x="257" y="230" level="0" width="15" height="10"/>
+  <object group="Nav" type="Nav" x="269" y="235" level="0" width="31" height="8"/>
+  <object group="WaterZone" type="WaterZone" x="55" y="237" level="0" width="19" height="11"/>
+  <object group="WaterZone" type="WaterZone" x="59" y="234" level="0" width="25" height="7"/>
+  <object group="WaterZone" type="WaterZone" x="73" y="241" level="0" width="2" height="3"/>
+  <object group="WaterZone" type="WaterZone" x="64" y="231" level="0" width="31" height="6"/>
+  <object group="WaterZone" type="WaterZone" x="71" y="229" level="0" width="21" height="4"/>
+  <object group="WaterZone" type="WaterZone" x="82" y="241" level="0" width="5" height="2"/>
+  <object group="WaterZone" type="WaterZone" x="82" y="236" level="0" width="18" height="8"/>
+  <object group="WaterZone" type="WaterZone" x="94" y="234" level="0" width="3" height="2"/>
+  <object group="WaterZone" type="WaterZone" x="89" y="243" level="0" width="15" height="6"/>
+  <object group="WaterZone" type="WaterZone" x="99" y="241" level="0" width="3" height="3"/>
+  <object group="WaterZone" type="WaterZone" x="91" y="248" level="0" width="11" height="8"/>
+  <object group="WaterZone" type="WaterZone" x="61" y="247" level="0" width="11" height="6"/>
+  <object group="WaterZone" type="WaterZone" x="63" y="252" level="0" width="18" height="6"/>
+  <object group="WaterZone" type="WaterZone" x="71" y="250" level="0" width="5" height="3"/>
+  <object group="WaterZone" type="WaterZone" x="75" y="251" level="0" width="2" height="2"/>
+  <object group="WaterZone" type="WaterZone" x="68" y="257" level="0" width="9" height="4"/>
+  <object group="WaterZone" type="WaterZone" x="78" y="253" level="0" width="16" height="6"/>
+  <object group="WaterZone" type="WaterZone" x="88" y="250" level="0" width="4" height="4"/>
+  <object group="WaterZone" type="WaterZone" x="74" y="256" level="0" width="8" height="9"/>
+  <object group="WaterZone" type="WaterZone" x="72" y="259" level="0" width="5" height="5"/>
+  <object group="WaterZone" type="WaterZone" x="80" y="259" level="0" width="11" height="6"/>
+  <object group="WaterZone" type="WaterZone" x="86" y="257" level="0" width="12" height="7"/>
+  <object group="WaterZone" type="WaterZone" x="92" y="255" level="0" width="9" height="4"/>
+  <object group="WaterZone" type="WaterZone" x="71" y="110" level="0" width="19" height="7"/>
+  <object group="WaterZone" type="WaterZone" x="29" y="22" level="0" width="63" height="12"/>
+  <object group="WaterZone" type="WaterZone" x="62" y="18" level="0" width="30" height="8"/>
+  <object group="DeepForest" type="DeepForest" x="-1" y="-1" level="0" width="11" height="190"/>
+  <object group="DeepForest" type="DeepForest" x="-1" y="195" level="0" width="18" height="105"/>
+  <object group="DeepForest" type="DeepForest" x="17" y="275" level="0" width="283" height="25"/>
+  <object group="DeepForest" type="DeepForest" x="269" y="243" level="0" width="31" height="34"/>
+  <object group="DeepForest" type="DeepForest" x="296" y="51" level="0" width="4" height="184"/>
+  <object group="DeepForest" type="DeepForest" x="183" y="0" level="0" width="117" height="8"/>
+  <object group="DeepForest" type="DeepForest" x="285" y="7" level="0" width="15" height="10"/>
+  <object group="DeepForest" type="DeepForest" x="290" y="17" level="0" width="10" height="17"/>
+  <object group="DeepForest" type="DeepForest" x="296" y="34" level="0" width="4" height="17"/>
+  <object group="Forest" type="Forest" x="212" y="38" level="0" width="53" height="28"/>
+  <object group="Forest" type="Forest" x="259" y="27" level="0" width="26" height="18"/>
+  <object group="Forest" type="Forest" x="284" y="45" level="0" width="12" height="34"/>
+  <object group="Forest" type="Forest" x="281" y="45" level="0" width="1" height="1"/>
+  <object group="Forest" type="Forest" x="268" y="45" level="0" width="16" height="32"/>
+  <object group="Forest" type="Forest" x="219" y="103" level="0" width="39" height="47"/>
+  <object group="Forest" type="Forest" x="197" y="113" level="0" width="42" height="40"/>
+  <object group="Forest" type="Forest" x="213" y="147" level="0" width="67" height="42"/>
+  <object group="Forest" type="Forest" x="10" y="34" level="0" width="127" height="39"/>
+  <object group="Forest" type="Forest" x="10" y="73" level="0" width="68" height="37"/>
+  <object group="Forest" type="Forest" x="10" y="110" level="0" width="50" height="63"/>
+  <object group="Forest" type="Forest" x="60" y="117" level="0" width="48" height="55"/>
+  <object group="Forest" type="Forest" x="25" y="208" level="0" width="28" height="33"/>
+  <object group="Forest" type="Forest" x="40" y="186" level="0" width="39" height="35"/>
+  <object group="Forest" type="Forest" x="104" y="216" level="0" width="43" height="59"/>
+  <object group="Forest" type="Forest" x="147" y="216" level="0" width="55" height="59"/>
+  <object group="Forest" type="Forest" x="237" y="243" level="0" width="32" height="32"/>
+  <object group="Forest" type="Forest" x="189" y="209" level="0" width="37" height="31"/>
+  <object group="Vegitation" type="Vegitation" x="108" y="126" level="0" width="38" height="50"/>
+  <object group="Vegitation" type="Vegitation" x="86" y="172" level="0" width="22" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="100" y="174" level="0" width="8" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="114" y="176" level="0" width="27" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="141" y="176" level="0" width="5" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="10" y="173" level="0" width="29" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="10" y="176" level="0" width="20" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="10" y="178" level="0" width="15" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="10" y="181" level="0" width="11" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="10" y="182" level="0" width="9" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="10" y="183" level="0" width="5" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="10" y="187" level="0" width="1" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="14" y="193" level="0" width="3" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="15" y="191" level="0" width="25" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="21" y="189" level="0" width="19" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="35" y="181" level="0" width="51" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="47" y="179" level="0" width="36" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="83" y="180" level="0" width="3" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="28" y="184" level="0" width="12" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="27" y="186" level="0" width="1" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="17" y="195" level="0" width="23" height="13"/>
+  <object group="Vegitation" type="Vegitation" x="17" y="208" level="0" width="8" height="67"/>
+  <object group="Vegitation" type="Vegitation" x="25" y="241" level="0" width="30" height="34"/>
+  <object group="Vegitation" type="Vegitation" x="55" y="248" level="0" width="6" height="27"/>
+  <object group="Vegitation" type="Vegitation" x="61" y="253" level="0" width="2" height="22"/>
+  <object group="Vegitation" type="Vegitation" x="53" y="221" level="0" width="6" height="16"/>
+  <object group="Vegitation" type="Vegitation" x="53" y="237" level="0" width="2" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="59" y="221" level="0" width="5" height="13"/>
+  <object group="Vegitation" type="Vegitation" x="64" y="221" level="0" width="7" height="10"/>
+  <object group="Vegitation" type="Vegitation" x="71" y="221" level="0" width="23" height="8"/>
+  <object group="Vegitation" type="Vegitation" x="92" y="229" level="0" width="12" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="95" y="231" level="0" width="9" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="97" y="234" level="0" width="7" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="100" y="236" level="0" width="4" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="102" y="241" level="0" width="2" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="63" y="258" level="0" width="5" height="17"/>
+  <object group="Vegitation" type="Vegitation" x="68" y="261" level="0" width="4" height="14"/>
+  <object group="Vegitation" type="Vegitation" x="72" y="264" level="0" width="2" height="11"/>
+  <object group="Vegitation" type="Vegitation" x="74" y="265" level="0" width="30" height="10"/>
+  <object group="Vegitation" type="Vegitation" x="91" y="264" level="0" width="13" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="98" y="259" level="0" width="6" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="102" y="249" level="0" width="2" height="10"/>
+  <object group="Vegitation" type="Vegitation" x="101" y="256" level="0" width="1" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="79" y="186" level="0" width="25" height="43"/>
+  <object group="Vegitation" type="Vegitation" x="86" y="183" level="0" width="13" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="99" y="185" level="0" width="82" height="31"/>
+  <object group="Vegitation" type="Vegitation" x="142" y="183" level="0" width="39" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="172" y="170" level="0" width="3" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="172" y="172" level="0" width="6" height="11"/>
+  <object group="Vegitation" type="Vegitation" x="178" y="178" level="0" width="3" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="150" y="181" level="0" width="22" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="160" y="177" level="0" width="12" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="167" y="173" level="0" width="5" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="181" y="187" level="0" width="6" height="29"/>
+  <object group="Vegitation" type="Vegitation" x="187" y="195" level="0" width="5" height="14"/>
+  <object group="Vegitation" type="Vegitation" x="187" y="209" level="0" width="2" height="7"/>
+  <object group="Vegitation" type="Vegitation" x="192" y="201" level="0" width="15" height="8"/>
+  <object group="Vegitation" type="Vegitation" x="207" y="202" level="0" width="14" height="7"/>
+  <object group="Vegitation" type="Vegitation" x="221" y="206" level="0" width="18" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="226" y="209" level="0" width="13" height="34"/>
+  <object group="Vegitation" type="Vegitation" x="239" y="212" level="0" width="8" height="31"/>
+  <object group="Vegitation" type="Vegitation" x="247" y="219" level="0" width="5" height="24"/>
+  <object group="Vegitation" type="Vegitation" x="252" y="223" level="0" width="3" height="20"/>
+  <object group="Vegitation" type="Vegitation" x="255" y="230" level="0" width="2" height="13"/>
+  <object group="Vegitation" type="Vegitation" x="257" y="240" level="0" width="12" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="202" y="240" level="0" width="35" height="35"/>
+  <object group="Vegitation" type="Vegitation" x="247" y="189" level="0" width="49" height="17"/>
+  <object group="Vegitation" type="Vegitation" x="255" y="206" level="0" width="41" height="8"/>
+  <object group="Vegitation" type="Vegitation" x="262" y="214" level="0" width="34" height="16"/>
+  <object group="Vegitation" type="Vegitation" x="272" y="230" level="0" width="24" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="280" y="147" level="0" width="16" height="42"/>
+  <object group="Vegitation" type="Vegitation" x="258" y="79" level="0" width="38" height="68"/>
+  <object group="Vegitation" type="Vegitation" x="185" y="66" level="0" width="83" height="37"/>
+  <object group="Vegitation" type="Vegitation" x="265" y="45" level="0" width="3" height="21"/>
+  <object group="Vegitation" type="Vegitation" x="268" y="77" level="0" width="16" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="285" y="17" level="0" width="5" height="28"/>
+  <object group="Vegitation" type="Vegitation" x="290" y="34" level="0" width="6" height="11"/>
+  <object group="Vegitation" type="Vegitation" x="183" y="8" level="0" width="76" height="30"/>
+  <object group="Vegitation" type="Vegitation" x="259" y="8" level="0" width="26" height="19"/>
+  <object group="Vegitation" type="Vegitation" x="183" y="38" level="0" width="29" height="28"/>
+  <object group="Vegitation" type="Vegitation" x="183" y="66" level="0" width="2" height="37"/>
+  <object group="Vegitation" type="Vegitation" x="182" y="103" level="0" width="37" height="10"/>
+  <object group="Vegitation" type="Vegitation" x="182" y="89" level="0" width="1" height="14"/>
+  <object group="Vegitation" type="Vegitation" x="180" y="105" level="0" width="2" height="8"/>
+  <object group="Vegitation" type="Vegitation" x="178" y="111" level="0" width="2" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="178" y="113" level="0" width="19" height="40"/>
+  <object group="Vegitation" type="Vegitation" x="177" y="121" level="0" width="1" height="33"/>
+  <object group="Vegitation" type="Vegitation" x="178" y="153" level="0" width="2" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="180" y="153" level="0" width="33" height="9"/>
+  <object group="Vegitation" type="Vegitation" x="182" y="162" level="0" width="31" height="4"/>
+  <object group="Vegitation" type="Vegitation" x="186" y="166" level="0" width="26" height="6"/>
+  <object group="Vegitation" type="Vegitation" x="187" y="172" level="0" width="26" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="212" y="166" level="0" width="1" height="6"/>
+  <object group="Vegitation" type="Vegitation" x="191" y="177" level="0" width="22" height="9"/>
+  <object group="Vegitation" type="Vegitation" x="198" y="186" level="0" width="15" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="202" y="191" level="0" width="11" height="2"/>
+  <object group="Vegitation" type="Vegitation" x="208" y="193" level="0" width="5" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="213" y="189" level="0" width="34" height="5"/>
+  <object group="Vegitation" type="Vegitation" x="222" y="194" level="0" width="17" height="1"/>
+  <object group="Vegitation" type="Vegitation" x="239" y="194" level="0" width="8" height="6"/>
+  <object group="Vegitation" type="Vegitation" x="121" y="73" level="0" width="49" height="53"/>
+  <object group="Vegitation" type="Vegitation" x="137" y="34" level="0" width="40" height="39"/>
+  <object group="Vegitation" type="Vegitation" x="170" y="73" level="0" width="7" height="15"/>
+  <object group="Vegitation" type="Vegitation" x="170" y="88" level="0" width="5" height="10"/>
+  <object group="Vegitation" type="Vegitation" x="170" y="98" level="0" width="4" height="7"/>
+  <object group="Vegitation" type="Vegitation" x="170" y="105" level="0" width="2" height="15"/>
+  <object group="Vegitation" type="Vegitation" x="146" y="126" level="0" width="24" height="39"/>
+  <object group="Vegitation" type="Vegitation" x="146" y="165" level="0" width="8" height="9"/>
+  <object group="Vegitation" type="Vegitation" x="154" y="165" level="0" width="7" height="6"/>
+  <object group="Vegitation" type="Vegitation" x="161" y="165" level="0" width="4" height="3"/>
+  <object group="Vegitation" type="Vegitation" x="170" y="155" level="0" width="1" height="7"/>
+  <object group="Forest" type="Forest" x="60" y="110" level="0" width="11" height="7"/>
+  <object group="Forest" type="Forest" x="78" y="73" level="0" width="43" height="37"/>
+  <object group="Forest" type="Forest" x="90" y="110" level="0" width="31" height="7"/>
+  <object group="Forest" type="Forest" x="108" y="117" level="0" width="13" height="9"/>
+  <object group="Forest" type="Forest" x="10" y="0" level="0" width="167" height="6"/>
+  <object group="Forest" type="Forest" x="10" y="6" level="0" width="8" height="21"/>
+  <object group="Vegitation" type="Vegitation" x="10" y="27" level="0" width="19" height="7"/>
+  <object group="Vegitation" type="Vegitation" x="18" y="6" level="0" width="11" height="21"/>
+  <object group="Vegitation" type="Vegitation" x="29" y="6" level="0" width="33" height="16"/>
+  <object group="Vegitation" type="Vegitation" x="62" y="6" level="0" width="115" height="12"/>
+  <object group="Vegitation" type="Vegitation" x="92" y="18" level="0" width="85" height="16"/>
+ </cell>
+</world>
