@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <building version="3" width="22" height="24" ExteriorWall="15" ExteriorWallTrim="0" Door="9" DoorFrame="4" Window="39" Curtains="0" Shutters="0" Stairs="36" RoofCap="33" RoofSlope="34" RoofTop="35" GrimeWall="24">
+ <properties>
+  <property name="Legend" value="RetailAndCommercial"/>
+ </properties>
  <tile_entry category="door_frames">
   <tile enum="West" tile="fixtures_bathroom_01_046"/>
   <tile enum="North" tile="fixtures_bathroom_01_047"/>
@@ -362,20 +365,12 @@
  </furniture>
  <furniture layer="FloorFurniture">
   <entry orient="W">
-   <tile x="0" y="0" name="floors_rugs_01_014"/>
-   <tile x="0" y="1" name="floors_rugs_01_010"/>
-   <tile x="0" y="2" name="floors_rugs_01_008"/>
-   <tile x="1" y="0" name="floors_rugs_01_015"/>
-   <tile x="1" y="1" name="floors_rugs_01_011"/>
-   <tile x="1" y="2" name="floors_rugs_01_009"/>
-  </entry>
-  <entry orient="N">
-   <tile x="0" y="0" name="floors_rugs_01_014"/>
-   <tile x="0" y="1" name="floors_rugs_01_008"/>
-   <tile x="1" y="0" name="floors_rugs_01_013"/>
-   <tile x="1" y="1" name="floors_rugs_01_012"/>
-   <tile x="2" y="0" name="floors_rugs_01_015"/>
-   <tile x="2" y="1" name="floors_rugs_01_009"/>
+   <tile x="0" y="0" name="floors_rugs_01_028"/>
+   <tile x="0" y="1" name="floors_rugs_01_036"/>
+   <tile x="0" y="2" name="floors_rugs_01_044"/>
+   <tile x="1" y="0" name="floors_rugs_01_029"/>
+   <tile x="1" y="1" name="floors_rugs_01_037"/>
+   <tile x="1" y="2" name="floors_rugs_01_045"/>
   </entry>
  </furniture>
  <furniture>
@@ -1281,9 +1276,27 @@
    <tile x="0" y="0" name="industry_02_019"/>
   </entry>
  </furniture>
+ <furniture layer="FloorFurniture">
+  <entry orient="W">
+   <tile x="0" y="0" name="floors_rugs_01_014"/>
+   <tile x="0" y="1" name="floors_rugs_01_010"/>
+   <tile x="0" y="2" name="floors_rugs_01_008"/>
+   <tile x="1" y="0" name="floors_rugs_01_015"/>
+   <tile x="1" y="1" name="floors_rugs_01_011"/>
+   <tile x="1" y="2" name="floors_rugs_01_009"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="floors_rugs_01_014"/>
+   <tile x="0" y="1" name="floors_rugs_01_008"/>
+   <tile x="1" y="0" name="floors_rugs_01_013"/>
+   <tile x="1" y="1" name="floors_rugs_01_012"/>
+   <tile x="2" y="0" name="floors_rugs_01_015"/>
+   <tile x="2" y="1" name="floors_rugs_01_009"/>
+  </entry>
+ </furniture>
  <user_tiles/>
  <used_tiles>11 32 18 14 15 26 13 20 23 24 16 8 3 31 30 17 29 19 10 4 6 2 5 1 38 9 28 21 36 37 27 22 12 25 7 33 34 35</used_tiles>
- <used_furniture>3 80 0 1 27 4 5 22 81 53 6 7 29 82 28 30 8 9 10 11 12 13 14 15 16 17 18 19 20 21 1 23 24 25 26 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 83 55 84 85 54 56 57 58 59 60 61 62 63 64 1 66 46 47 67 68 86 69 79 65 70 71 72 73 74 75 76 77 78 48 49 50 51 52 2</used_furniture>
+ <used_furniture>3 80 0 1 27 4 5 22 81 53 6 7 29 82 28 30 8 9 10 11 12 13 14 15 16 17 18 19 20 21 1 23 24 25 26 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 83 55 84 85 54 56 57 58 59 60 61 62 63 64 1 66 46 47 67 68 86 69 79 65 70 71 72 73 74 75 76 77 78 48 49 50 51 52 87 2</used_furniture>
  <room Name="Foyer" InternalName="Foyer" Color="200 200 200" InteriorWall="32" InteriorWallTrim="0" Floor="16" GrimeFloor="23" GrimeWall="24"/>
  <room Name="Lobby" InternalName="Lobby" Color="128 128 128" InteriorWall="32" InteriorWallTrim="0" Floor="20" GrimeFloor="23" GrimeWall="24"/>
  <room Name="Office" InternalName="Office" Color="255 0 0" InteriorWall="31" InteriorWallTrim="0" Floor="16" GrimeFloor="23" GrimeWall="24"/>
@@ -1303,7 +1316,7 @@
   <object type="furniture" FurnitureTiles="1" orient="W" x="6" y="4"/>
   <object type="door" FrameTile="3" x="6" y="2" dir="W" Tile="8"/>
   <object type="door" FrameTile="3" x="14" y="2" dir="W" Tile="8"/>
-  <object type="furniture" FurnitureTiles="2" orient="E" x="9" y="1"/>
+  <object type="furniture" FurnitureTiles="2" orient="W" x="9" y="1"/>
   <object type="furniture" FurnitureTiles="3" orient="N" x="9" y="3"/>
   <object type="furniture" FurnitureTiles="4" orient="W" x="6" y="3"/>
   <object type="furniture" FurnitureTiles="5" orient="W" x="6" y="1"/>

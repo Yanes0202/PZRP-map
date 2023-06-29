@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<building version="2" width="8" height="9" ExteriorWall="4" ExteriorWallTrim="0" Door="3" DoorFrame="2" Window="21" Curtains="1" Shutters="0" Stairs="20" RoofCap="18" RoofSlope="19" RoofTop="0" GrimeWall="0">
+<building version="3" width="8" height="9" ExteriorWall="4" ExteriorWallTrim="0" Door="3" DoorFrame="2" Window="21" Curtains="1" Shutters="0" Stairs="20" RoofCap="18" RoofSlope="19" RoofTop="0" GrimeWall="0">
+ <properties>
+  <property name="Legend" value="Residential"/>
+ </properties>
  <tile_entry category="curtains">
   <tile enum="West" tile="fixtures_windows_curtains_02_020"/>
   <tile enum="East" tile="fixtures_windows_curtains_02_021"/>
@@ -652,9 +655,6 @@
   </entry>
  </furniture>
  <user_tiles>
-  <tile tile="roofs_01_116"/>
-  <tile tile="roofs_01_118"/>
-  <tile tile="roofs_01_119"/>
   <tile tile="walls_exterior_roofs_03_032"/>
  </user_tiles>
  <used_tiles>4 11 8 12 7 13 14 5 15 21 3 2 18 19 1 17 9 10 16 6</used_tiles>
@@ -728,7 +728,6 @@
 </rooms>
  </floor>
  <floor>
-  <object type="roof" width="3" height="9" RoofType="SlopeE" Depth="Three" cappedW="false" cappedN="true" cappedE="true" cappedS="true" CapTiles="18" SlopeTiles="19" TopTiles="0" x="5" y="0"/>
   <object type="roof" width="3" height="9" RoofType="SlopeW" Depth="Three" cappedW="true" cappedN="true" cappedE="false" cappedS="true" CapTiles="18" SlopeTiles="19" TopTiles="0" x="0" y="0"/>
   <object type="window" CurtainsTile="0" ShuttersTile="0" x="7" y="6" dir="W" Tile="21"/>
   <object type="window" CurtainsTile="0" ShuttersTile="0" x="7" y="2" dir="W" Tile="21"/>
@@ -736,6 +735,11 @@
   <object type="window" CurtainsTile="0" ShuttersTile="0" x="4" y="0" dir="N" Tile="21"/>
   <object type="window" CurtainsTile="0" ShuttersTile="0" x="3" y="9" dir="N" Tile="21"/>
   <object type="window" CurtainsTile="0" ShuttersTile="0" x="4" y="9" dir="N" Tile="21"/>
+  <object type="roof" width="7" height="2" RoofType="PeakNS" Depth="Three" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="18" SlopeTiles="19" TopTiles="0" x="1" y="7"/>
+  <object type="roof" width="7" height="3" RoofType="PeakNS" Depth="Three" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="18" SlopeTiles="19" TopTiles="0" x="1" y="3"/>
+  <object type="roof" width="2" height="1" RoofType="PeakNS" Depth="One" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="18" SlopeTiles="19" TopTiles="0" x="6" y="6"/>
+  <object type="roof" width="2" height="1" RoofType="PeakNS" Depth="One" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="18" SlopeTiles="19" TopTiles="0" x="6" y="2"/>
+  <object type="roof" width="6" height="2" RoofType="PeakNS" Depth="Three" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="18" SlopeTiles="19" TopTiles="0" x="2" y="0"/>
   <rooms>
 0,0,0,1,1,0,0,0,
 0,0,0,1,1,0,0,0,
@@ -747,30 +751,6 @@
 0,0,0,1,1,0,0,0,
 0,0,0,1,1,0,0,0
 </rooms>
-  <tiles layer="Roof">
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,1,0,
-0,0,0,0,0,0,3,2,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,3,2,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0
-</tiles>
-  <tiles layer="Roof2">
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,1,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,1,0,
-0,0,0,0,0,0,0,1,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0
-</tiles>
  </floor>
  <floor>
   <object type="roof" width="2" height="9" RoofType="PeakNS" Depth="One" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="18" SlopeTiles="19" TopTiles="0" x="3" y="0"/>
@@ -790,11 +770,11 @@
   <tiles layer="Floor">
 0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,4,0,
+0,0,0,0,0,0,0,1,0,
 0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,4,0,
+0,0,0,0,0,0,0,1,0,
 0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0

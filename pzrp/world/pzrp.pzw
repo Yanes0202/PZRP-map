@@ -450,9 +450,6 @@
   <lot x="78" y="10" level="0" width="27" height="6" map="../../Building Pool V 2/Commerical/Shop/satorowshops1.tbx"/>
   <lot x="66" y="27" level="0" width="27" height="17" map="../../Building Pool V 2/Commerical/Apartments/apartments7.tbx"/>
   <lot x="53" y="113" level="0" width="61" height="31" map="../../MyBuildings/BazaBandytów.tbx"/>
-  <object type="SpawnPoint" x="89" y="38" level="0" width="1" height="1">
-   <template name="SpawnPoint"/>
-  </object>
   <object group="Nav" type="Nav" level="0" geometry="polygon" points="219,0 226,1 226,24 225,25 52,25 52,0 60,0 60,17 218,17 218,0"/>
   <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="240,0 230,18 223,31 193,44 166,48 117,49 73,48 44,33 28,17 26,0 52,0"/>
   <object group="Vegitation" type="Vegitation" level="0" geometry="polygon" points="15,77 26,69 47,75 54,79 45,85 27,80"/>
@@ -478,6 +475,9 @@
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="198,13 201,13 201,17 198,17"/>
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="202,13 202,17 205,17 205,13"/>
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="207,142 209,139 201,135 199,139"/>
+  <object type="SpawnPoint" x="117" y="5" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
  </cell>
  <cell x="3" y="2" map="3.2.tmx">
   <lot x="120" y="190" level="0" width="6" height="6" map="../../Building Pool V 2/Special/shacky4.tbx"/>
@@ -2572,7 +2572,7 @@
   <lot x="161" y="230" level="0" width="6" height="14" map="../../Building Pool V 2/Residential/trailer0b.tbx"/>
   <lot x="291" y="237" level="0" width="5" height="7" map="../../Building Pool V 2/CitySpaces/bus_stop_city_w_by_7_v1.0.tbx"/>
   <lot x="251" y="219" level="0" width="31" height="21" map="../../Building Pool V 2/Public Service/Hospital/hospital huge.tbx"/>
-  <lot x="247" y="104" level="0" width="31" height="31" map="../../Building Pool V 2/Public Service/Fire/arma_2_fire_station.tbx"/>
+  <lot x="247" y="104" level="0" width="25" height="16" map="../../Building Pool V 2/Public Service/Fire/arma_2_fire_station.tbx"/>
   <lot x="186" y="107" level="0" width="26" height="18" map="../../Building Pool V 2/Public Service/Education/School_03.tbx"/>
   <lot x="219" y="108" level="0" width="24" height="16" map="../../Building Pool V 2/Public Service/Religion/churchlarge1.tbx"/>
   <lot x="216" y="87" level="0" width="13" height="13" map="../../Building Pool V 2/Residential/east_house3_variation1.tbx"/>
@@ -2613,9 +2613,9 @@
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="263,124 263,128 266,128 266,124"/>
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="242,166 247,166 247,196 242,196"/>
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="259,160 259,196 254,196 254,160"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="211,178 211,190 206,190 206,178"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="201,166 201,171 189,171 189,166"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="188,193 192,193 193,193 193,232 188,232"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="210,178 210,190 206,190 206,178"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="201,167 201,171 189,171 189,167"/>
+  <object name="police" group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="189,193 192,193 193,193 193,232 189,232"/>
  </cell>
  <cell x="9" y="6" map="9.6.tmx">
   <object group="DeepForest" type="DeepForest" level="0" geometry="polygon" points="25,0 24,10 37,31 59,57 68,89 119,137 143,177 140,184 134,175 108,141 81,119 61,105 61,135 75,201 101,262 101,300 300,300 300,0"/>
@@ -2693,6 +2693,9 @@
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="177,96 180,93 178,91 175,94"/>
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="194,93 197,90 200,93 197,96"/>
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="178,73 178,78 181,78 181,73"/>
+  <object type="SpawnPoint" x="113" y="34" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
  </cell>
  <cell x="2" y="7" map="2.7.tmx">
   <lot x="117" y="91" level="0" width="20" height="28" map="../../Building Pool V 2/Commerical/Automotive/gas_station1.tbx"/>
@@ -2708,13 +2711,13 @@
   <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="140,218 99,217 99,267 140,267"/>
   <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="154,174 194,174 194,125 154,125"/>
   <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="139,118 139,76 110,76 110,118"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="160,158 160,162 187,162 187,158"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="154,169 154,173 193,173 193,169"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="100,249 100,253 139,253 139,249"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="100,262 100,266 139,266 139,262"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="160,159 160,163 187,163 187,159"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="154,168 154,172 193,172 193,168"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="100,250 100,254 139,254 139,250"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="100,261 100,265 139,265 139,261"/>
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="159,249 159,253 189,253 189,249"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="117,85 117,89 135,89 135,85"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="111,77 111,81 138,81 138,77"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="117,84 117,88 135,88 135,84"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="111,78 111,82 138,82 138,78"/>
  </cell>
  <cell x="3" y="7" map="3.7.tmx">
   <lot x="99" y="52" level="0" width="54" height="29" map="../../Building Pool V 2/Industry/Warehouse/Doublebrain_abandoned-factory.tbx"/>
@@ -2779,6 +2782,9 @@
   <object group="FarmLand" type="FarmLand" level="0" geometry="polygon" points="96,0 226,0 225,278 96,277"/>
   <object group="DeepForest" type="DeepForest" level="0" geometry="polygon" points="300,43 288,45 270,76 240,79 240,110 251,160 247,217 250,238 298,294 296,299 297,300 300,300"/>
   <object group="Forest" type="Forest" level="0" geometry="polygon" points="300,43 300,0 226,0 225,278 96,277 96,300 296,300 298,294 250,238 247,217 251,160 240,111 240,110 240,79 270,76 288,45"/>
+  <object type="SpawnPoint" x="75" y="154" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
  </cell>
  <cell x="6" y="7" map="6.7.tmx">
   <lot x="113" y="28" level="0" width="21" height="11" map="../../MyBuildings/shed_tree.tbx"/>
@@ -2865,35 +2871,35 @@
   <object group="Nav" type="Nav" level="0" geometry="polygon" points="0,146 52,146 52,152 0,151"/>
   <object group="Forest" type="Forest" level="0" geometry="polygon" points="202,258 207,300 300,300 300,275 287,271 246,252"/>
   <object group="Forest" type="Forest" level="0" geometry="polygon" points="300,129 258,123 258,60 257,24 231,31 212,0 300,0"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="140,177 140,181 155,181 158,181 158,177"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="216,195 198,195 198,199 216,199"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="194,189 194,165 190,165 190,189"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="153,190 153,194 135,194 135,190"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="128,190 128,186 110,186 110,190"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="128,203 128,199 110,199 110,203"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="66,125 70,125 70,149 66,149"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="81,128 85,128 85,145 81,145"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="249,195 253,195 253,246 249,246"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="198,238 202,238 202,256 198,256"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="208,238 212,238 212,256 208,256"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="174,269 189,269 189,265 174,265"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="129,297 129,264 133,264 133,297"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="138,258 134,258 134,237 138,237"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="41,94 45,94 45,76 41,76"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="198,66 198,62 156,62 156,66"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="203,77 203,73 158,73 158,77"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="217,74 217,78 232,78 232,74"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="217,85 217,89 232,89 232,85"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="194,35 194,39 212,39 212,35"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="140,178 140,182 155,182 158,182 158,178"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="216,194 198,194 198,198 216,198"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="193,189 193,165 189,165 189,189"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="153,189 153,193 135,193 135,189"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="128,191 128,187 110,187 110,191"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="128,202 128,198 110,198 110,202"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="67,125 71,125 71,149 67,149"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="80,128 84,128 84,145 80,145"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="250,195 254,195 254,246 250,246"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="199,238 203,238 203,256 199,256"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="207,238 211,238 211,256 207,256"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="174,270 189,270 189,266 174,266"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="128,297 128,264 132,264 132,297"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="137,258 133,258 133,237 137,237"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="42,94 46,94 46,76 42,76"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="198,67 198,63 156,63 156,67"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="203,76 203,72 158,72 158,76"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="217,75 217,79 232,79 232,75"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="217,84 217,88 232,88 232,84"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="194,36 194,40 212,40 212,36"/>
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="116,26 119,26 119,33 116,33"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="62,22 62,28 57,28 57,22"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="156,154 152,154 152,127 156,127"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="156,126 156,123 216,123 216,127"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="153,119 153,115 216,115 216,119"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="136,94 140,94 140,97 136,97"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="136,92 136,89 140,89 140,92"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="226,141 226,145 244,145 244,141"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="226,155 226,151 244,151 244,155"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="61,22 61,28 57,28 57,22"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="155,154 151,154 151,127 155,127"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="156,125 156,122 216,122 216,126"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="153,120 153,116 216,116 216,120"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="137,94 141,94 141,97 137,97"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="137,92 137,89 141,89 141,92"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="226,142 226,146 244,146 244,142"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="226,154 226,150 244,150 244,154"/>
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="293,176 290,176 290,172 293,172"/>
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="290,197 293,197 293,193 290,193"/>
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="290,214 293,214 293,218 290,218"/>
@@ -2927,12 +2933,12 @@
   <object group="Forest" type="Forest" level="0" geometry="polygon" points="300,172 248,172 230,154 127,154 127,126 112,118 103,69 104,60 149,15 149,0 300,0"/>
   <object group="Nav" type="Nav" level="0" geometry="polygon" points="300,172 248,172 230,154 127,154 126,154 126,161 229,161 247,179 252,179 252,299 252,300 261,300 261,179 300,179"/>
   <object group="Nav" type="Nav" level="0" geometry="polygon" points="103,69 100,53 142,12 142,0 149,0 149,15 104,60"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="74,239 74,290 70,290 70,239"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="73,239 73,290 69,290 69,239"/>
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="87,207 90,207 90,213 87,213"/>
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="83,207 86,207 86,213 83,213"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="78,161 81,161 81,170 78,170"/>
-  <object name="police" group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="25,128 25,149 30,149 30,128"/>
-  <object name="police" group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="43,125 47,125 47,146 43,146"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="78,161 82,161 82,170 78,170"/>
+  <object name="police" group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="26,128 26,149 30,149 30,128"/>
+  <object name="police" group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="42,125 46,125 46,146 42,146"/>
  </cell>
  <cell x="4" y="8" map="4.8.tmx">
   <object group="FarmLand" type="FarmLand" level="0" geometry="polygon" points="53,0 53,96 267,98 264,0"/>
@@ -3014,6 +3020,9 @@
   <object group="DeepForest" type="DeepForest" level="0" geometry="polygon" points="0,30 71,47 195,79 221,160 263,226 256,227 221,181 181,163 162,192 187,249 234,260 251,238 260,300 300,300 300,0 0,0"/>
   <object group="Forest" type="Forest" level="0" geometry="polygon" points="0,30 0,146 154,146 154,300 260,300 251,238 234,260 187,249 162,192 181,163 221,181 256,227 263,226 221,160 195,79"/>
   <object group="Forest" type="Forest" level="0" geometry="polygon" points="0,154 0,290 12,300 146,300 146,154 102,154 119,184 119,224 100,238 59,244 50,230 44,188 38,166 64,163 88,177 94,154"/>
+  <object type="SpawnPoint" x="77" y="180" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
  </cell>
  <cell x="10" y="8" map="DeepForest.tmx"/>
  <cell x="0" y="9" map="DeepForest.tmx"/>
@@ -3059,15 +3068,15 @@
   <object group="DeepForest" type="DeepForest" level="0" geometry="polygon" points="0,143 1,143 34,190 50,218 90,252 126,278 141,273 177,275 220,290 289,276 300,280 300,300 0,300 0,288 5,292 9,297 17,299 24,299 26,297 36,296 43,292 49,290 58,294 64,294 67,290 70,290 79,294 87,295 94,292 95,288 99,289 111,293 116,292 121,292 131,290 133,289 123,284 117,282 108,280 100,280 95,279 90,279 83,284 70,280 60,276 55,280 46,279 38,278 34,282 30,285 19,287 11,286 0,280"/>
   <object group="Forest" type="Forest" level="0" geometry="polygon" points="1,143 0,142 0,143"/>
   <object group="Forest" type="Forest" level="0" geometry="polygon" points="0,143 1,143 0,0"/>
-  <object name="police" group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="112,141 112,145 127,145 127,141"/>
-  <object name="police" group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="112,149 112,153 127,153 127,149"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="111,61 111,65 132,65 132,61"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="129,34 133,34 133,49 129,49"/>
+  <object name="police" group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="112,142 112,146 127,146 127,142"/>
+  <object name="police" group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="112,148 112,152 127,152 127,148"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="111,60 111,64 132,64 132,60"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="130,34 134,34 134,49 130,49"/>
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="169,85 169,68 173,68 173,85"/>
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="184,65 188,65 188,90 184,90"/>
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="229,24 232,24 232,13 229,13"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="94,62 94,59 94,58 64,58 64,62"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="94,69 94,73 64,73 64,69"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="94,63 94,59 64,59 64,63"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="94,68 94,72 64,72 64,68"/>
   <object name="ambulance" group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="51,37 51,40 56,40 56,37"/>
   <object name="ambulance" group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="52,36 56,36 56,33 52,33"/>
   <object name="ambulance" group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="51,30 51,27 56,27 56,30"/>
@@ -3086,11 +3095,11 @@
   <object group="Forest" type="Forest" level="0" geometry="polygon" points="0,133 17,130 26,109 30,16 97,17 94,0 0,0"/>
   <object group="Forest" type="Forest" level="0" geometry="polygon" points="107,0 252,0 253,23 253,24 145,21 136,99 106,97"/>
   <object group="Nav" type="Nav" level="0" geometry="polygon" points="253,24 261,24 261,0 252,0"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="187,86 187,90 250,90 250,86"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="187,87 187,91 250,91 250,87"/>
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="193,96 193,104 244,104 244,96"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="193,111 193,110 250,110 250,114 193,114"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="193,111 193,109 250,109 250,113 193,113"/>
   <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="71,60 79,60 79,87 71,87"/>
-  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="67,60 63,60 63,87 67,87"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="68,60 64,60 64,87 68,87"/>
   <object group="TownZone" type="TownZone" level="0" geometry="polygon" points="70,185 70,189 88,189 88,185"/>
  </cell>
  <cell x="4" y="9" map="DeepForest.tmx"/>
@@ -3132,6 +3141,12 @@
   <object group="DeepForest" type="DeepForest" level="0" geometry="polygon" points="260,1 260,0 300,0 300,301 0,300 0,0 19,0 12,42 27,86 4,155 7,175 22,192 32,236 39,257 44,255 58,269 64,274 74,262 116,267 159,259 197,256 223,248 257,266 276,245 259,186 261,143 268,133 254,33"/>
   <object group="Forest" type="Forest" level="0" geometry="polygon" points="154,1 154,0 260,0 254,33 268,132 261,143 259,186 276,245 257,266 223,248 198,256 159,259 116,267 74,262 64,274 58,269 44,255 67,257 67,245 153,244 158,213 237,208 236,102 159,92 154,95"/>
   <object group="Forest" type="Forest" level="0" geometry="polygon" points="139,109 129,99 132,91 138,85 143,73 137,61 108,47 100,35 81,25 54,27 39,37 35,58 43,74 53,86 50,122 61,141 67,150 25,151 7,153 12,174 33,180 38,161 59,160 58,232 42,233 44,255 39,257 32,236 22,192 7,175 4,155 27,86 12,42 19,0 146,0 146,99 140,102"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="175,165 175,210 178,210 178,165"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="184,165 181,165 181,210 184,210"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="178,149 175,149 175,104 178,104"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="181,149 183,149 184,149 184,104 181,104"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="142,186 142,183 64,183 64,186"/>
+  <object group="ParkingStall" type="ParkingStall" level="0" geometry="polygon" points="142,192 142,189 64,189 64,193"/>
  </cell>
  <cell x="10" y="9" map="DeepForest.tmx"/>
  <cell x="0" y="10" map="DeepForest.tmx"/>

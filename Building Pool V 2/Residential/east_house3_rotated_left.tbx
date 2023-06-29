@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<building version="2" width="12" height="12" ExteriorWall="10" ExteriorWallTrim="0" Door="7" DoorFrame="5" Window="76" Curtains="1" Shutters="0" Stairs="73" RoofCap="58" RoofSlope="64" RoofTop="71" GrimeWall="0">
+<building version="3" width="12" height="12" ExteriorWall="10" ExteriorWallTrim="0" Door="7" DoorFrame="5" Window="76" Curtains="1" Shutters="0" Stairs="73" RoofCap="58" RoofSlope="64" RoofTop="71" GrimeWall="0">
  <tile_entry category="curtains">
   <tile enum="West" tile="fixtures_windows_curtains_01_084"/>
   <tile enum="East" tile="fixtures_windows_curtains_01_085"/>
@@ -1861,11 +1861,7 @@
   <tile tile="fixtures_railings_01_025"/>
   <tile tile="fixtures_railings_01_035"/>
   <tile tile="floors_interior_tilesandwood_01_041"/>
-  <tile tile="location_trailer_01_017"/>
-  <tile tile="location_trailer_01_018"/>
-  <tile tile="location_trailer_01_020"/>
-  <tile tile="location_trailer_01_021"/>
-  <tile tile="location_trailer_01_022"/>
+  <tile tile="location_trailer_01_016"/>
   <tile tile="roofs_accents_01_002"/>
   <tile tile="roofs_accents_01_003"/>
   <tile tile="roofs_accents_01_018"/>
@@ -1940,17 +1936,17 @@
   <tiles layer="Floor">
 0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,8,0,0,
 0,0,0,0,0,0,0,0,0,0,5,0,0,
 0,0,0,0,0,0,0,0,0,0,5,0,0,
 0,0,0,0,0,0,0,0,0,0,5,0,0,
+0,0,0,0,0,0,0,0,0,0,5,0,0,
 0,0,0,0,0,0,0,0,4,4,5,0,0,
 0,0,0,0,0,0,0,0,4,4,5,0,0,
 0,0,0,0,0,0,0,0,4,4,5,0,0,
 0,0,0,0,0,0,0,0,4,4,5,0,0,
 0,0,0,0,0,0,0,0,4,4,5,0,0,
-0,9,6,6,6,6,6,6,6,6,7,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0
+0,5,5,5,5,5,5,5,5,5,5,0,0,
+0,0,0,0,5,0,0,0,0,0,0,0,0
 </tiles>
   <tiles layer="Walls">
 0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2012,7 +2008,6 @@
   <object type="furniture" FurnitureTiles="31" orient="W" x="1" y="7"/>
   <object type="furniture" FurnitureTiles="32" orient="S" x="4" y="10"/>
   <object type="furniture" FurnitureTiles="30" orient="S" x="5" y="10"/>
-  <object type="furniture" FurnitureTiles="30" orient="S" x="6" y="10"/>
   <object type="door" FrameTile="5" x="3" y="3" dir="W" Tile="7"/>
   <object type="door" FrameTile="5" x="2" y="7" dir="N" Tile="7"/>
   <object type="door" FrameTile="5" x="5" y="6" dir="W" Tile="7"/>
@@ -2039,12 +2034,12 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,12,0,0,
-0,0,0,0,0,0,0,0,0,0,12,0,0,
-0,0,0,0,0,0,0,0,0,0,12,0,0,
-0,0,0,0,0,0,0,0,0,0,12,0,0,
-0,0,0,0,0,0,0,0,0,0,12,0,0,
-0,0,0,0,0,0,0,0,10,11,13,0,0,
+0,0,0,0,0,0,0,0,0,0,8,0,0,
+0,0,0,0,0,0,0,0,0,0,8,0,0,
+0,0,0,0,0,0,0,0,0,0,8,0,0,
+0,0,0,0,0,0,0,0,0,0,8,0,0,
+0,0,0,0,0,0,0,0,0,0,8,0,0,
+0,0,0,0,0,0,0,0,6,7,9,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0
 </tiles>
  </floor>
